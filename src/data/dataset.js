@@ -4,7 +4,7 @@ export default [
     "name": "Ada Lovelace",
     "shortDescription": "Pionera en la programación, primera programadora de la historia.",
     "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "C://Users//Christian//Desktop//Laboratoria//curriculum//projects//02-dataverse//thumb.png",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
     "facts": {
       "yearOfBirth": "1815",
       "yearOfDeath": "1852",
@@ -36,13 +36,12 @@ export default [
     "name": "Hypatia de Alejandría",
     "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
     "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "/projects/02-dataverse/thumb.png",
+    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
     "facts": {
       "yearOfBirth": "circa 360",
       "yearOfDeath": "415",
       "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía",
-      "holamundo": "Hola"
+      "mainField": "Matemáticas, Filosofía"
     },
     "extraInfo": {
       "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
