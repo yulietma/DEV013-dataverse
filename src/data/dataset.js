@@ -1,6 +1,6 @@
 export default [
   {
-    "id": "pinocho",
+    "id": "Pinocho",
     "name": "Pinocho",
     "shortDescription": "Muñeco de madera que cobra vida",
     "description": "Pinocho es un muñeco de madera tallado por Geppetto que cobra vida gracias a la magia de una hada. A lo largo de su historia, Pinocho enfrenta diversas aventuras y aprende valiosas lecciones sobre la honestidad y la responsabilidad.",
@@ -18,7 +18,7 @@ export default [
     }
 },
 {
-  "id": "elefante-bernardo",
+  "id": "ElefanteBernardo",
   "name": "El Elefante Bernardo",
   "shortDescription": "Gigante y amigable elefante",
   "description": "El Elefante Bernardo es un gigante elefante que vive en la selva. A pesar de su imponente tamaño, es conocido por su naturaleza amigable y su amor por la naturaleza.",
@@ -32,7 +32,7 @@ export default [
   }
 },
 {
-  "id": "uga-la-tortuga",
+  "id": "UgaLaTortuga",
   "name": "Uga la Tortuga",
   "shortDescription": "Anciana y sabia tortuga",
   "description": "Uga es una tortuga anciana conocida por su sabiduría y paciencia. Vive en un estanque tranquilo donde a menudo aconseja a otros animales con sus experiencias de vida.",
@@ -46,7 +46,7 @@ export default [
   }
 },
 {
-  "id": "liebre-y-tortuga",
+  "id": "LiebreYTortuga",
   "name": "La Liebre y la Tortuga",
   "shortDescription": "Personajes de la famosa fábula",
   "description": "La Liebre y la Tortuga son personajes protagonistas de la famosa fábula. La historia ilustra la importancia de la perseverancia y la constancia.",
@@ -59,7 +59,7 @@ export default [
   }
 },
 {
-  "id": "huevo-que-pia",
+  "id": "HuevoQuePia",
   "name": "El Huevo que Pía",
   "shortDescription": "Un huevo especial con sorpresa",
   "description": "Este huevo es especial porque, en lugar de romperse para revelar a un pollito, ¡pía! Es una rareza entre los huevos y ha cautivado la curiosidad de todos en la granja.",
@@ -72,7 +72,7 @@ export default [
   }
 },
 {
-  "id": "patito-feo",
+  "id": "PatitoFeo",
   "name": "El Patito Feo",
   "shortDescription": "Pequeño patito con un destino sorprendente",
   "description": "El Patito Feo es un pequeño patito que, a pesar de ser diferente al principio, descubre su verdadera identidad como un hermoso cisne. La historia destaca la importancia de la autoaceptación.",
@@ -86,7 +86,7 @@ export default [
   }
 },
 {
-  "id": "osito-curioso",
+  "id": "OsitoCurioso",
   "name": "El Osito Curioso",
   "shortDescription": "Aventuras de un osito que ama aprender",
   "description": "Acompaña al Osito Curioso en sus emocionantes aventuras mientras explora el bosque y descubre el fascinante mundo que lo rodea.",
@@ -100,7 +100,7 @@ export default [
   }
 },
 {
-  "id": "aventura-pececito-azul",
+  "id": "AventuraPececitoAzul",
   "name": "La Aventura del Pececito Azul",
   "shortDescription": "Un pececito curioso explora el océano",
   "description": "Acompaña al Pececito Azul en su emocionante aventura por el océano, donde descubre la importancia de la amistad y la superación.",
@@ -114,7 +114,7 @@ export default [
   }
 },
 {
-  "id": "ratona-rosita",
+  "id": "RatonaRosita",
   "name": "Las Travesuras de la Ratona Rosita",
   "shortDescription": "Ratona traviesa en busca de diversión",
   "description": "Acompaña a la Ratona Rosita mientras se embarca en travesuras encantadoras y aprende valiosas lecciones sobre la amistad y la responsabilidad.",
@@ -128,7 +128,7 @@ export default [
   }
 },
 {
-  "id": "cenicienta-amigos-animales",
+  "id": "CenicientaAmigosAnimales",
   "name": "Cenicienta y sus Amigos Animales",
   "shortDescription": "Una versión encantadora del clásico cuento",
   "description": "Revive la historia de Cenicienta con un toque especial, destacando la amistad con sus adorables amigos animales que la ayudan a cumplir sus sueños.",
@@ -142,7 +142,7 @@ export default [
   }
 },
 {
-  "id": "gato-con-botas-aventura-reino",
+  "id": "GatoConBotasAventuraReino",
   "name": "El Gato con Botas y la Aventura en el Reino",
   "shortDescription": "El astuto gato que conquista el corazón del reino",
   "description": "Acompaña al Gato con Botas en una emocionante aventura para ganarse el corazón del reino y demostrar que la astucia puede vencer a cualquier adversidad.",
@@ -156,7 +156,7 @@ export default [
   }
 },
 {
-  "id": "blancanieves-siete-enanitos",
+  "id": "BlancanievesSieteEnanitos",
   "name": "Blancanieves y los Siete Enanitos",
   "shortDescription": "La historia mágica de amistad y superación",
   "description": "Descubre la mágica historia de Blancanieves, su amistad con los siete enanitos y cómo supera las adversidades con valentía y bondad.",
@@ -170,7 +170,7 @@ export default [
   }
 },
 {
-  "id": "lobo-tres-cerditos",
+  "id": "LoboTresCerditos",
   "name": "El Lobo y los Tres Cerditos",
   "shortDescription": "Aventuras de los cerditos y el astuto lobo",
   "description": "Sumérgete en las divertidas aventuras de los tres cerditos y el astuto lobo mientras construyen sus casas y enfrentan desafíos inesperados.",
@@ -184,7 +184,7 @@ export default [
   }
 },
 {
-  "id": "sirenita-amigos-marinos",
+  "id": "SirenitaAmigosMarinos",
   "name": "La Sirenita y sus Amigos Marinos",
   "shortDescription": "La historia mágica de la sirenita y sus amigos bajo el mar",
   "description": "Explora el mágico mundo submarino con la Sirenita y sus amigos marinos mientras descubren tesoros y enfrentan desafíos emocionantes.",
@@ -199,7 +199,7 @@ export default [
   }
 },
 {
-  "id": "hansel-gretel-bosque-encantado",
+  "id": "HanselGretelBosqueEncantado",
   "name": "Hansel y Gretel en el Bosque Encantado",
   "shortDescription": "Aventuras de los hermanos en un bosque lleno de magia",
   "description": "Acompaña a Hansel y Gretel mientras se aventuran en un bosque encantado lleno de magia, dulces y desafíos inesperados.",
@@ -213,7 +213,7 @@ export default [
   }
 },
 {
-  "id": "leon-raton-amigo",
+  "id": "LeonRatonAmigo",
   "name": "El León y el Ratón Amigo",
   "shortDescription": "Una historia de amistad improbable entre un león y un ratón",
   "description": "Descubre cómo la pequeña amistad entre un león majestuoso y un ratón valiente demuestra que la ayuda puede venir de los lugares menos esperados.",
@@ -226,7 +226,7 @@ export default [
   }
 },
 {
-  "id": "bella-durmiente-reino-suenos",
+  "id": "BellaDurmienteReinoSuenos",
   "name": "La Bella Durmiente y el Reino de los Sueños",
   "shortDescription": "Una versión encantada del clásico cuento de hadas",
   "description": "Acompaña a la Bella Durmiente en su viaje mágico a través del reino de los sueños, donde descubre el poder de la amistad y el amor verdadero.",
@@ -240,7 +240,7 @@ export default [
   }
 },
 {
-  "id": "pulgarcito-secretos-bosque-encantado",
+  "id": "PulgarcitoSecretosBosqueEncantado",
   "name": "Pulgarcito y los Secretos del Bosque Encantado",
   "shortDescription": "Aventuras del pequeño Pulgarcito en un bosque lleno de sorpresas",
   "description": "Acompaña a Pulgarcito mientras descubre los secretos fascinantes del bosque encantado y demuestra que incluso los más pequeños pueden tener grandes aventuras.",
@@ -254,7 +254,7 @@ export default [
   }
 },
 {
-  "id": "peter-pan-tierra-nunca-jamas",
+  "id": "PeterPanTierraNuncaJamas",
   "name": "Peter Pan y la Tierra de Nunca Jamás",
   "shortDescription": "Las emocionantes aventuras de Peter Pan y sus amigos en la tierra de la fantasía",
   "description": "Vuela con Peter Pan y sus amigos a la Tierra de Nunca Jamás, donde la magia y la amistad duran para siempre, y donde enfrentan al astuto Capitán Garfio.",
@@ -268,7 +268,7 @@ export default [
   }
 },
 {
-  "id": "patito-feo-busca-identidad",
+  "id": "PatitoFeoBuscaIdentidad",
   "name": "El Patito Feo en Busca de su Identidad",
   "shortDescription": "La conmovedora historia del patito que descubre su verdadera belleza",
   "description": "Acompaña al Patito Feo en su viaje de autodescubrimiento mientras supera los desafíos y abraza su verdadera identidad llena de belleza interior.",
@@ -282,7 +282,7 @@ export default [
   }
 },
 {
-  "id": "flautista-hamelin-aventura-musical",
+  "id": "FlautistaHamelinAventuraMusical",
   "name": "El Flautista de Hamelín y la Aventura Musical",
   "shortDescription": "La clásica historia del flautista que encanta a toda la ciudad",
   "description": "Descubre cómo el talentoso Flautista de Hamelín utiliza su música para resolver problemas y llevar alegría a la ciudad en esta aventura musical encantadora.",
