@@ -7,9 +7,9 @@ export default [
     "imageUrl": "https://th.bing.com/th/id/OIG.Hx9k0_XgQwnbWEsPAQnf?pid=ImgGn",
     "facts": {
         "curiousFact1": "Anhela ser un niño de verdad",
-        "curiousFact2": "Acompañado por su conciencia, Pepito Grillo"
+        "curiousFact2": "Acompañado por su conciencia, Pepito Grillo",
         "genero": ["Literatura infantil", "Fábula"],
-        "rango_de_edad": "Todas las edades"
+        "RangoDeEdad": "Todas las edades"
     }
 },
 {
@@ -20,9 +20,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG3.o7I461DRPog9_U20saVV?pid=ImgGn",
   "facts": {
       "curiousFact1": "Tiene una memoria excepcional",
-      "curiousFact2": "Siempre lleva consigo una mariposa como amuleto de la suerte"
+      "curiousFact2": "Siempre lleva consigo una mariposa como amuleto de la suerte",
       "genero": ["Literatura infantil"],
-      "rango_de_edad": "3 a 8 años"
+      "RangoDeEdad": "3 a 8 años"
   }
 },
 {
@@ -33,9 +33,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG.4cMd5Q7B07Hb3fD7_amy?pid=ImgGn",
   "facts": {
       "curiousFact1": "Guardiana de cuentos antiguos",
-      "curiousFact2": "Puede predecir cambios en el clima"
+      "curiousFact2": "Puede predecir cambios en el clima",
       "genero": ["Literatura infantil"],
-      "rango_de_edad": "4 a 10 años"
+      "RangoDeEdad": "4 a 10 años"
   }
 },
 {
@@ -46,9 +46,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG.22ARtDnxN8DdvuwaTf3B?pid=ImgGn",
   "facts": {
       "curiousFact1": "Fábula atribuida a Esopo",
-      "curiousFact2": "Enseñanza popular en la cultura mundial"
+      "curiousFact2": "Enseñanza popular en la cultura mundial",
       "genero": ["Fábula"],
-      "rango_de_edad": "Todas las edades"
+      "RangoDeEdad": "Todas las edades"
   }
 },
 {
@@ -59,9 +59,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG.cJTRrmCVSPuCqzwD5a9V?pid=ImgGnhttps://th.bing.com/th/id/OIG.cJTRrmCVSPuCqzwD5a9V?pid=ImgGn",
   "facts": {
       "curiousFact1": "Fuente de asombro en la granja",
-      "curiousFact2": "Siempre rodeado de misterio"
+      "curiousFact2": "Siempre rodeado de misterio",
       "genero": ["Literatura infantil"],
-      "rango_de_edad": "3 a 6 años"
+      "RangoDeEdad": "3 a 6 años"
   }
 },
 {
@@ -72,9 +72,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG.trUAtSaEEfBWO5uOTztQ?pid=ImgGn",
   "facts": {
       "curiousFact1": "Escrito por Hans Christian Andersen",
-      "curiousFact2": "Mensaje de aceptación y autovaloración"
+      "curiousFact2": "Mensaje de aceptación y autovaloración",
       "genero": ["Cuento de hadas", "Literatura infantil"],
-      "rango_de_edad": "Todas las edades"
+      "RangoDeEdad": "Todas las edades"
   }
 },
 {
@@ -85,9 +85,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG.ooZJ3fAbRb4qUtqYHx65?pid=ImgGn",
   "facts": {
       "curiousFact1": "Siempre lleva consigo su mochila de explorador",
-      "curiousFact2": "Tiene muchos amigos animales"
+      "curiousFact2": "Tiene muchos amigos animales",
       "genero": ["Literatura infantil"],
-      "rango_de_edad": "3 a 7 años"
+      "RangoDeEdad": "3 a 7 años"
   }
 },
 {
@@ -98,9 +98,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG.vvwIdPTH10GErdhizrqo?pid=ImgGn",
   "facts": {
       "curiousFact1": "Tiene escamas brillantes",
-      "curiousFact2": "Aprende a nadar en espirales"
+      "curiousFact2": "Aprende a nadar en espirales",
       "genero": ["Literatura infantil"],
-      "rango_de_edad": "4 a 8 años"
+      "RangoDeEdad": "4 a 8 años"
   }
 },
 {
@@ -111,9 +111,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG.ut23lB.pqFl2rWuTU4g1?pid=ImgGn",
   "facts": {
       "curiousFact1": "Siempre lleva un lazo rojo",
-      "curiousFact2": "Tiene una colección de cuentos"
+      "curiousFact2": "Tiene una colección de cuentos",
       "genero": ["Literatura infantil"],
-      "rango_de_edad": "3 a 6 años"
+      "RangoDeEdad": "3 a 6 años"
   }
 },
 {
@@ -124,9 +124,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG.HrtZwjx795WPJHIxWauj?pid=ImgGn",
   "facts": {
       "curiousFact1": "Los amigos animales tienen nombres divertidos",
-      "curiousFact2": "El hada madrina también juega un papel importante"
+      "curiousFact2": "El hada madrina también juega un papel importante",
       "genero": ["Cuento de hadas", "Literatura infantil"],
-      "rango_de_edad": "Todas las edades"
+      "RangoDeEdad": "Todas las edades"
   }
 },
 {
@@ -137,9 +137,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG2.j4NowxnjROOoSoPbvsxZ?pid=ImgGn",
   "facts": {
       "curiousFact1": "Siempre lleva sus botas mágicas",
-      "curiousFact2": "Tiene una habilidad especial para la estrategia"
+      "curiousFact2": "Tiene una habilidad especial para la estrategia",
       "genero": ["Cuento de hadas", "Literatura infantil"],
-      "rango_de_edad": "Todas las edades"
+      "RangoDeEdad": "Todas las edades"
   }
 },
 {
@@ -150,9 +150,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG3..kOh.Mpjmqdq7JgPjcWH?pid=ImgGn",
   "facts": {
       "curiousFact1": "Cada enanito tiene una personalidad única",
-      "curiousFact2": "La malvada madrastra juega un papel importante en la trama"
+      "curiousFact2": "La malvada madrastra juega un papel importante en la trama",
       "genero": ["Cuento de hadas", "Literatura infantil"],
-      "rango_de_edad": "Todas las edades"
+      "RangoDeEdad": "Todas las edades"
   }
 },
 {
@@ -163,9 +163,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG2.JH4vKuk8UrOIFOwKx.Q3?pid=ImgGn",
   "facts": {
       "curiousFact1": "Cada cerdito tiene su enfoque único para construir su casa",
-      "curiousFact2": "El lobo tiene trucos ingeniosos para intentar derribar las casas"
+      "curiousFact2": "El lobo tiene trucos ingeniosos para intentar derribar las casas",
       "genero": ["Cuento popular", "Literatura infantil"],
-      "rango_de_edad": "Todas las edades"
+      "RangoDeEdad": "Todas las edades"
   }
 },
 {
@@ -176,9 +176,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG1.WgDkarCNSDkZfW7nUJRl?pid=ImgGn",
   "facts": {
       "curiousFact1": "La Sirenita tiene una cola de escamas brillantes",
-      "curiousFact2": "Los amigos marinos tienen habilidades especiales"
+      "curiousFact2": "Los amigos marinos tienen habilidades especiales",
       "genero": ["Cuento de hadas", "Literatura infantil"],
-      "rango_de_edad": "Todas las edades"
+      "RangoDeEdad": "Todas las edades"
   }
 },
 {
@@ -189,9 +189,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG.5SCkT9zOjtYGs1yRwulG?w=1024&h=1024&rs=1&pid=ImgDetMaingit",
   "facts": {
       "curiousFact1": "Dejan migas de pan para encontrar el camino de regreso",
-      "curiousFact2": "La bruja tiene trucos mágicos"
+      "curiousFact2": "La bruja tiene trucos mágicos",
       "genero": ["Cuento de hadas", "Literatura infantil"],
-      "rango_de_edad": "Todas las edades"
+      "RangoDeEdad": "Todas las edades"
   }
 },
 {
@@ -202,9 +202,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG2.Ogz8cNU1BkECJvzqIXho?w=1024&h=1024&rs=1&pid=ImgDetMain",
   "facts": {
       "curiousFact1": "El ratón ayuda al león en un momento crucial",
-      "curiousFact2": "Ambos personajes tienen habilidades únicas"
+      "curiousFact2": "Ambos personajes tienen habilidades únicas",
       "genero": ["Fábula", "Literatura infantil"],
-      "rango_de_edad": "Todas las edades"
+      "RangoDeEdad": "Todas las edades"
   }
 },
 {
@@ -215,9 +215,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG3.eLzUSyzgDIEiMkmnTil5?w=1024&h=1024&rs=1&pid=ImgDetMain",
   "facts": {
       "curiousFact1": "Un hechizo de sueño profundo",
-      "curiousFact2": "Príncipe valiente en busca del amor"
+      "curiousFact2": "Príncipe valiente en busca del amor",
       "genero": ["Cuento de hadas", "Literatura infantil"],
-      "rango_de_edad": "Todas las edades"
+      "RangoDeEdad": "Todas las edades"
   }
 },
 {
@@ -228,9 +228,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG2.sM5h9xN07xF43Wr6Cfdw?w=1024&h=1024&rs=1&pid=ImgDetMain",
   "facts": {
       "curiousFact1": "Utiliza migas de pan para encontrar su camino",
-      "curiousFact2": "Amigos animales le ayudan en sus travesías"
+      "curiousFact2": "Amigos animales le ayudan en sus travesías",
       "genero": ["Cuento de hadas", "Literatura infantil"],
-      "rango_de_edad": "Todas las edades"
+      "RangoDeEdad": "Todas las edades"
   }
 },
 {
@@ -241,9 +241,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG2.Kqb50ddaIBE8fvSXIERm?pid=ImgGn",
   "facts": {
       "curiousFact1": "Acompañado por Campanilla y los Niños Perdidos",
-      "curiousFact2": "Nunca crece y vive en la isla mágica"
+      "curiousFact2": "Nunca crece y vive en la isla mágica",
       "genero": ["Fantasía", "Literatura infantil"],
-      "rango_de_edad": "Todas las edades"
+      "RangoDeEdad": "Todas las edades"
   }
 },
 {
@@ -254,9 +254,9 @@ export default [
     "imageUrl": "https://th.bing.com/th/id/OIG.kUS4XL9v0zMPq3m4qEMP?w=1024&h=1024&rs=1&pid=ImgDetMain",
     "facts": {
         "curiousFact1": "Cada zapato tiene un cordón mágico",
-        "curiousFact2": "Los calcetines tienen personalidades únicas"
+        "curiousFact2": "Los calcetines tienen personalidades únicas",
         "genero": ["Fantasía","Literatura infantil"],
-        "rango_de_edad": "4 a 10 años"
+        "RangoDeEdad": "4 a 10 años"
     }
 },
 {
@@ -267,9 +267,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG.ZLFi5eNV5PHT45G8H.6C?pid=ImgGn",
   "facts": {
       "curiousFact1": "Encanta a ratones y humanos con su flauta",
-      "curiousFact2": "Resuelve conflictos a través de la música"
+      "curiousFact2": "Resuelve conflictos a través de la música",
       "genero": ["Cuento de hadas", "Literatura infantil"],
-      "rango_de_edad": "Todas las edades"
+      "RangoDeEdad": "Todas las edades"
   }
 },
 {
@@ -280,9 +280,9 @@ export default [
   "imageUrl": "https://th.bing.com/th/id/OIG.6E_sPKJI5tu.Y.n0_g2Y?pid=ImgGn",
   "facts": {
       "curiousFact1": "Sus pétalos brillan cuando está feliz",
-      "curiousFact2": "Tiene una risa contagiosa"
+      "curiousFact2": "Tiene una risa contagiosa",
       "genero": ["Fantasía","Literatura infantil"],
-      "rango_de_edad": "3 a 7 años"
+      "RangoDeEdad": "3 a 7 años"
   }
   },
   
@@ -294,9 +294,9 @@ export default [
     "imageUrl": "https://th.bing.com/th/id/OIG.QR2ywz.2RjTBEI2teDzt?pid=ImgGn",
     "facts": {
         "curiousFact1": "Cada color tiene su propia personalidad",
-        "curiousFact2": "Los personajes viajan por diferentes paisajes de colores"
+        "curiousFact2": "Los personajes viajan por diferentes paisajes de colores",
         "genero": ["Fantasía","Literatura infantil"],
-        "rango_de_edad": "5 a 12 años"
+        "RangoDeEdad": "5 a 12 años"
     }
   },
 {
@@ -307,9 +307,9 @@ export default [
     "imageUrl": "https://th.bing.com/th/id/OIG.oqXndIJxJtMe7_sXLk2K?pid=ImgGn",
     "facts": {
         "curiousFact1": "Cada peluche tiene una habilidad única",
-        "curiousFact2": "La isla tiene paisajes y criaturas mágicas"
+        "curiousFact2": "La isla tiene paisajes y criaturas mágicas",
         "genero": ["Aventura","Literatura infantil"],
-        "rango_de_edad": "6 a 10 años"
+        "RangoDeEdad": "6 a 10 años"
     }
   }
 ];
