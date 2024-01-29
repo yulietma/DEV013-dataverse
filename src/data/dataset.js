@@ -53,7 +53,7 @@ export default [
 },
 {
   "id": "HuevoQuePia",
-  "name": "El Huevo que Pía",
+  "name": "El Huevo que Pia",
   "shortDescription": "Un huevo especial con sorpresa",
   "description": "Este huevo es especial porque, en lugar de romperse para revelar a un pollito, ¡pía! Es una rareza entre los huevos y ha cautivado la curiosidad de todos en la granja.",
   "imageUrl": "https://th.bing.com/th/id/OIG.cJTRrmCVSPuCqzwD5a9V?pid=ImgGnhttps://th.bing.com/th/id/OIG.cJTRrmCVSPuCqzwD5a9V?pid=ImgGn",
