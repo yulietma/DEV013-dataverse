@@ -4,7 +4,7 @@ export const renderItems = (data) => {
       const element = data[i];
       // console.log(element);
       // template string
-      
+      //pendite cargar
       // ul.innerHTML += '<li>'+element.name+'</li>' 
       ul.innerHTML += `<li itemscope itemtype="${element.name}">
       <h2 itemprop="name">${element.name}</h2>

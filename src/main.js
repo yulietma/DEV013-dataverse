@@ -7,6 +7,6 @@ import data from './data/dataset.js';
 // usar el HTML
 // renderio data de forma dinamica
 // creacion de elemento
-//pndte cargar 
+//pendiente cargar 
 
 document.getElementById('root').appendChild(renderItems(data))
