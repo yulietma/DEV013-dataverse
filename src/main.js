@@ -2,7 +2,7 @@ import { example } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
-//Carpeta donde se mostrará toda interacción con el DOM
+//Carpeta donde se mostrará toda interacción con el DOMM
 // renderio data de forma dinamica
 // creacion de elemento
 //pendiente cargar 

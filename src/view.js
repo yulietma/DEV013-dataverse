@@ -2,7 +2,7 @@ export const renderItems = (data) => {
   const ul = document.createElement('ul')
   for (let i = 0; i < data.length; i++) {
       const element = data[i];
-      // console.log(element);
+      // console.log(element);;
       // coment
       // template string
       //Este archivo debe tener todas las funciones que utilizara para renderizar los elementos dinámicamente.
