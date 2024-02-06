@@ -1,12 +1,57 @@
-header {
-    font-family: 'Great Vibes', cursive;
-    text-align: center;
- background-image: url(Fondo1.jpg);
-  }
-  #Bienvenida{
-    font-size: 100px;
-  }
-  #CuantosCuentos{
-    font-size: 200px;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Paprika&display=swap");
+
+
+body {
+  background-image: url(assets/img/bienvenida.png);
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  width: 100%;
+  height: 90%;
+  max-width:1900px;
+}
+
+
+h1 {
+  font-family: "Paprika", system-ui;;
+  text-align: center;
+  font-weight: 900;
+  font-size: 90px;
+  color: #ffffff;
+}
+
+p {
+  font-family: "Charmonman", cursive;
+  text-align:left;
+  font-weight: 100;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+a {
+  font-family: "Paprika", system-ui;
+  text-align:right;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+footer {
+  font-family: "Charmonman", cursive;
+  text-align:start;
+  font-weight: 30;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.seccion {
+  padding: 320px; /* Espacio alrededor del contenido */
+}
+
+.seccion2 {
+  padding: 520px; /* Espacio alrededor del contenido */
+  background-image: url(assets/img/footer.png);
+  background-size:cover; /* Cubrir todo el fondo */
+  background-position: center bottom; /* Posición de la imagen (centrada en el fondo y en la parte inferior) */
+  background-attachment:scroll; /* Fijar la imagen al fondo */
   
+}
