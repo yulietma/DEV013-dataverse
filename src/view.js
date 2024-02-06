@@ -8,7 +8,7 @@ export const renderItems = (data) => {
       //Este archivo debe tener todas las funciones que utilizara para renderizar los elementos dinámicamente.
       // ul.innerHTML += '<li>'+element.name+'</li>' 
 
-      ul.innerHTML += `<li itemscope itemtype="${element.name}">
+      ul.innerHTML += `<li class= "card" itemscope itemtype="${element.name}">
       <h2 itemprop="name">${element.name}</h2>
       <img src="${element.imageUrl}" alt="${element.name}" itemprop="image" />
   
