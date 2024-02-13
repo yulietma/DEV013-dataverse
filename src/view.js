@@ -1,5 +1,6 @@
 export const renderItems = (data) => {
   const ul = document.createElement('ul')
+  ul.classList.add('Contenedor')//agregamos una clase a el elemneto ul
   for (let i = 0; i < data.length; i++) {
       const element = data[i];
       // console.log(element);;
@@ -8,10 +9,16 @@ export const renderItems = (data) => {
       //Este archivo debe tener todas las funciones que utilizara para renderizar los elementos dinámicamente.
       // ul.innerHTML += '<li>'+element.name+'</li>' 
 
-      ul.innerHTML += `<li class= "card" itemscope itemtype="${element.name}">
+      //ul.innerHTML += `<li class= "card" itemscope itemtype="${element.name}">
+      //<h2 itemprop="name">${element.name}</h2>
+      //<img id="Img" src="${element.imageUrl}" alt="${element.name}" itemprop="image" /> mi titulo se queda arriba 
+      ul.innerHTML += `<li class="card" itemscope itemtype="${element.name}">
+      <div class="PrimeraCara">
       <h2 itemprop="name">${element.name}</h2>
-      <img src="${element.imageUrl}" alt="${element.name}" itemprop="image" />
-  
+      <img id="Img" src="${element.imageUrl}" alt="${element.name}" itemprop="image" />
+      </div>
+      <div class="SegundaCara">
+      <dl>
       <dt>Descripción corta:</dt>
       <dd itemprop="shortDescription">${element.shortDescription}</dd>
   
@@ -23,7 +30,9 @@ export const renderItems = (data) => {
   
       <dt>Dato curioso 2:</dt>
       <dd itemprop="curiousFact2">${element.facts.curiousFact2}</dd>
-    </li>`
+      </dl>
+      </div>
+      </li>`
   }
   return ul
 };

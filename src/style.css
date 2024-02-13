@@ -55,3 +55,93 @@ footer {
   background-attachment:scroll; /* Fijar la imagen al fondo */
   
 }
+/*Las tarjetas */
+/*.card {
+ /* border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: 10px solid  rgba(12, 141, 253, 0.685);
+  position: relative;
+  overflow: hidden;
+  /*transition: heigth 0.5s ease;*/
+ /* flex-basis: calc(33.33% - 20px);
+  transition: flex-basis 0.5s;
+  transition: transform 0.3 ease; 
+  /*width: 300px;/*Ancho de mis card*/
+
+/*}
+/*Diseño de primera cara */
+.PrimeraCara{
+
+  position:relative;
+  display: flex;
+ flex-wrap: wrap; /* Permite que los elementos li se envuelvan  de PrimeraCara*/
+  }
+
+/*texto de la tarjeta primeracara*/
+.PrimeraCara h2{
+  position:absolute;
+  bottom: 0;/*Posiciona mi titulo en la parte inferior*/
+  text-align:center;/*Posision de mi texto Titulo*/
+  font-size: 1.6vw;/* tamaño de texto en relacion con el ancho de la ventana*/
+  color: #ffffff;
+  background-color: rgba(54, 52, 54, 0.575);/*Fondo de Titulo de cuento*/
+  border-bottom-left-radius: 25%;/* Borde de parte inferior izquierda*/
+  border-bottom-right-radius: 25%;/* Borde de parte inferior derecha */
+  padding-left: 20px;/* Relleno izquierdo del fondo */
+}
+/* Diseño de solo la imagen */
+#Img{
+  border: 5px  solid rgb(238, 238, 238);/*color de borde para imagen*/
+ width: 300px;/*Ancho de mi imagen*/
+ height: 265px;/*Largo d emi imagen*/
+  border-radius: 15%;/* Tipo de brode de mi imagen*/
+}
+/*Animacion de tarjeta */
+.card:hover{
+  height:auto;
+  flex-basis: 100%;
+}
+/* Diseño de la  data de SegundaCara */
+.card .SegundaCara{
+  position: absolute;
+  top:100%;
+  left: 0;
+  /*width: 300px;/*Ancho de mi data SegundaCara*/
+  /*height: auto;*/
+  background-color:rgb(252, 252, 252);
+  padding: 20px;
+  /*box-sizing: border-box ;*/
+  transition: top 0.5s ease;
+  border-radius: 10px;/*tipo de borodo para mi segundacara*/
+}
+.card:hover .SegundaCara{
+  top:0;
+}
+/*Termina animacion de SegundaCara*/
+
+/*Se crea las colmnas*/
+.Contenedor{
+ border: 1px, solid black;
+ background-color: brown;
+ padding: 20px;
+ display:flex;
+ flex-direction: row;
+ flex-wrap:wrap ;
+ width: 100%;
+
+
+
+}
+.card{
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: 10px solid rgba(54, 52, 54, 0.575);
+  position: relative;
+  overflow: hidden;
+  flex-basis: calc(50% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(252, 60, 12);
+  transition:flex-basis  0.5s, transform 0.3s ease;
+  
+}
