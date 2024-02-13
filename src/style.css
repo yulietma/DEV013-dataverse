@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
 
 
 body {
@@ -14,20 +14,33 @@ body {
 
 
 h1 {
-  height: fit-content;
-  font-family: "Calistoga", serif;
+
+  font-family: "Cinzel", serif;
+  font-weight: 620;
   text-align:center;
-  font-size: 90px;
+  font-size: 130px;
   color: #ffffff;
+  text-shadow:
+  1px 1px 2px rgb(255, 115, 1),
+  0 0 1em rgb(243, 243, 243),
+  0 0 0.2em rgb(255, 249, 247);
+  padding: 1px;
+  margin-top: -300px;
 
 }
 
 p {
   font-family: 'Poppins', sans-serif;
-  text-align:left;
-  font-weight: 100;
-  font-size: 40px;
-  color: #ffffff;
+  margin-top: -490px;
+  text-align:center;
+  font-size: 30px;
+  color: #e0d3cd;
+  text-shadow:
+  1px 1px 2px rgb(255, 102, 0),
+  0 0 1em rgb(241, 233, 223),
+  0 0 0.2em rgb(255, 253, 253);
+  padding: 380px;
+  white-space: nowrap;
 }
 
 footer {
@@ -77,6 +90,7 @@ font-family: 'Poppins', sans-serif;
 
 #main-header {
   background: #00050a;
+ text-align: justify;
 	color: white;
 	height: 80px;
   font-weight: 20;
@@ -112,4 +126,12 @@ label {
   font-family: 'Poppins', sans-serif;
   font-weight: 17;
   font-size: 17px;
+}
+
+.Read {
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  color:#00050a;
+  width: 30%;
+  align-self: center;
 }
