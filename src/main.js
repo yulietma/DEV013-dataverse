@@ -2,5 +2,10 @@ import { example } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
+//Carpeta donde se mostrará toda interacción con el DOMM
+// renderio data de forma dinamica
+// creacion de elemento
+//pendiente cargar 
 
-console.log(example, renderItems(data), data);
+document.getElementById('root').appendChild(renderItems(data))
+console.log(renderItems(data));

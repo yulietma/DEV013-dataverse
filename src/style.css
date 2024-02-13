@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+
+
+body {
+  background-image: url(assets/img/bienvenida.png);
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  width: 100%;
+  height: 90%;
+  max-width:1900px;
+  padding-top: 80px; /* Relleno superior igual a la altura de la  de filtrado*/
+}
+
+
+h1 {
+  height: fit-content;
+  font-family: "Calistoga", serif;
+  text-align:center;
+  font-size: 90px;
+  color: #ffffff;
+
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  text-align:left;
+  font-weight: 100;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  text-align:start;
+  font-weight: 30;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.seccion {
+  padding: 320px; /* Espacio alrededor del contenido */
+}
+
+.seccion2 {
+  padding: 520px; /* Espacio alrededor del contenido */
+  background-image: url(assets/img/footer.png);
+  background-size:cover; /* Cubrir todo el fondo */
+  background-position: center bottom; /* Posición de la imagen (centrada en el fondo y en la parte inferior) */
+  background-attachment:scroll; /* Fijar la imagen al fondo */
+  
+}
+
+.content {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0px auto;
+
+  /*FlexBox*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-search{
+border: none;
+padding: 10px 20px 10px 0px;
+margin: 12px 0px;
+width: 200px;
+background: transparent;
+color: #fff;
+outline-color: transparent;
+font-weight: 15;
+font-size: 15px;
+font-family: 'Poppins', sans-serif;
+}
+
+#main-header {
+  background: #00050a;
+	color: white;
+	height: 80px;
+  font-weight: 20;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición */
+}
+
+label {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#filter {
+  font-weight: 15;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+#order {
+  font-weight: 15;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.cleanerButton {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 17;
+  font-size: 17px;
+}
