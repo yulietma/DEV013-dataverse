@@ -22,7 +22,7 @@ export default [
       "curiousFact1": "Tiene una memoria excepcional",
       "curiousFact2": "Siempre lleva consigo una mariposa como amuleto de la suerte",
       "genero": ["Literatura infantil"],
-      "RangoDeEdad": "3 a 8 años"
+      "RangoDeEdad": "3 a 5 años"
   }
 },
 {
@@ -35,7 +35,7 @@ export default [
       "curiousFact1": "Guardiana de cuentos antiguos",
       "curiousFact2": "Puede predecir cambios en el clima",
       "genero": ["Literatura infantil"],
-      "RangoDeEdad": "4 a 10 años"
+      "RangoDeEdad": "6 a 10 años"
   }
 },
 {
@@ -61,7 +61,7 @@ export default [
       "curiousFact1": "Fuente de asombro en la granja",
       "curiousFact2": "Siempre rodeado de misterio",
       "genero": ["Literatura infantil"],
-      "RangoDeEdad": "3 a 6 años"
+      "RangoDeEdad": "3 a 5 años"
   }
 },
 {
@@ -87,7 +87,7 @@ export default [
       "curiousFact1": "Siempre lleva consigo su mochila de explorador",
       "curiousFact2": "Tiene muchos amigos animales",
       "genero": ["Literatura infantil"],
-      "RangoDeEdad": "3 a 7 años"
+      "RangoDeEdad": "3 a 5 años"
   }
 },
 {
@@ -100,7 +100,7 @@ export default [
       "curiousFact1": "Tiene escamas brillantes",
       "curiousFact2": "Aprende a nadar en espirales",
       "genero": ["Literatura infantil"],
-      "RangoDeEdad": "4 a 8 años"
+      "RangoDeEdad": "6 a 10 años"
   }
 },
 {
@@ -113,7 +113,7 @@ export default [
       "curiousFact1": "Siempre lleva un lazo rojo",
       "curiousFact2": "Tiene una colección de cuentos",
       "genero": ["Literatura infantil"],
-      "RangoDeEdad": "3 a 6 años"
+      "RangoDeEdad": "3 a 5 años"
   }
 },
 {
@@ -256,7 +256,7 @@ export default [
         "curiousFact1": "Cada zapato tiene un cordón mágico",
         "curiousFact2": "Los calcetines tienen personalidades únicas",
         "genero": ["Fantasía","Literatura infantil"],
-        "RangoDeEdad": "4 a 10 años"
+        "RangoDeEdad": "6 a 10 años"
     }
 },
 {
@@ -282,7 +282,7 @@ export default [
       "curiousFact1": "Sus pétalos brillan cuando está feliz",
       "curiousFact2": "Tiene una risa contagiosa",
       "genero": ["Fantasía","Literatura infantil"],
-      "RangoDeEdad": "3 a 7 años"
+      "RangoDeEdad": "3 a 5 años"
   }
   },
   
@@ -296,7 +296,7 @@ export default [
         "curiousFact1": "Cada color tiene su propia personalidad",
         "curiousFact2": "Los personajes viajan por diferentes paisajes de colores",
         "genero": ["Fantasía","Literatura infantil"],
-        "RangoDeEdad": "5 a 12 años"
+        "RangoDeEdad": "11 a 13 años"
     }
   },
 {
