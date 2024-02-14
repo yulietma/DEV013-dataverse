@@ -37,8 +37,8 @@ p {
   color: #e0d3cd;
   text-shadow:
   1px 1px 2px rgb(255, 102, 0),
-  0 0 1em rgb(241, 233, 223),
-  0 0 0.2em rgb(255, 253, 253);
+  0 0 1em rgb(255, 143, 6),
+  0 0 0.2em rgb(248, 49, 49);
   padding: 390px;
   white-space: nowrap;
 }
@@ -52,11 +52,10 @@ footer {
 }
 
 .seccion {
+  display: flex;
+  justify-content: center;
   padding: 320px; /* Espacio alrededor del contenido */
   display: grid;
-  height: 300px;
-  height: 200px; width: 200px;
-  display: inline-table;
 }
 
 .seccion2 {
@@ -132,10 +131,25 @@ label {
   font-size: 17px;
 }
 
-.Read {
+.seccionbutton {
   font-family: "Cinzel", serif;
-  font-size: 30px;
-  color:#00050a;
-  width: 30%;
-  align-self: center;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: -900px;
+  padding: 550px;
+}
+
+.readmore {
+  font-size: 39px;
+  color: rgb(252, 252, 252);
+  text-shadow:
+  1px 1px 2px rgb(255, 115, 1),
+  0 0 1em rgb(243, 243, 243),
+  0 0 0.2em rgb(255, 249, 247);
+  background-color:rgb(255, 101, 44);
+  font-family: "Cinzel", serif;
+  border-radius: 5px;
+  border-color: #fff;
+  padding: 14px 28px; 
 }
