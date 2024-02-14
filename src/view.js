@@ -18,18 +18,20 @@ export const renderItems = (data) => {
       <img id="Img" src="${element.imageUrl}" alt="${element.name}" itemprop="image" />
       </div>
       <div class="SegundaCara">
+      
       <dl>
-      <dt>Descripción corta:</dt>
-      <dd itemprop="shortDescription">${element.shortDescription}</dd>
-  
+      <dt> Genero:</dt>
+      <dd interprop="Genero"> ${element.facts.Genero}</dd>
+
       <dt>Descripción:</dt>
       <dd itemprop="description">${element.description}</dd>
   
       <dt>Dato curioso 1:</dt>
       <dd itemprop="curiousFact1">${element.facts.curiousFact1}</dd>
-  
-      <dt>Dato curioso 2:</dt>
-      <dd itemprop="curiousFact2">${element.facts.curiousFact2}</dd>
+
+      <dt>Rango De Edad:</dt>
+      <dd itemprop="RangoDeEdad">${element.facts.RangoDeEdad}</dd>
+
       </dl>
       </div>
       </li>`

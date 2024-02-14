@@ -3,12 +3,12 @@ export default [
     "id": "Pinocho",
     "name": "Pinocho",
     "shortDescription": "Muñeco de madera que cobra vida",
-    "description": "Pinocho es un muñeco de madera tallado por Geppetto que cobra vida gracias a la magia de una hada. A lo largo de su historia, Pinocho enfrenta diversas aventuras y aprende valiosas lecciones sobre la honestidad y la responsabilidad.",
+    "description": "Pinocho es un clásico cuento para niños escrito por Carlo Collodi. Narra la historia de un muñeco de madera tallado por el bondadoso Geppetto, quien sueña con tener un hijo. La marioneta cobra vida gracias a la hada Azul, pero su nariz crece cuando miente. Pinocho se embarca en diversas aventuras, enfrentando peligros y aprendiendo lecciones sobre la honestidad y la responsabilidad. Con personajes entrañables y situaciones emocionantes, el cuento enseña valiosas lecciones morales de una manera divertida y cautivadora",
     "imageUrl": "https://th.bing.com/th/id/OIG.Hx9k0_XgQwnbWEsPAQnf?pid=ImgGn",
     "facts": {
         "curiousFact1": "Anhela ser un niño de verdad",
         "curiousFact2": "Acompañado por su conciencia, Pepito Grillo",
-        "genero": ["Literatura infantil", "Fábula"],
+        "Genero": ["Literatura infantil", "Fábula"],
         "RangoDeEdad": "Todas las edades"
     }
 },
@@ -21,7 +21,7 @@ export default [
   "facts": {
       "curiousFact1": "Tiene una memoria excepcional",
       "curiousFact2": "Siempre lleva consigo una mariposa como amuleto de la suerte",
-      "genero": ["Literatura infantil"],
+      "Genero": ["Literatura infantil"],
       "RangoDeEdad": "3 a 5 años"
   }
 },
@@ -29,12 +29,12 @@ export default [
   "id": "UgaLaTortuga",
   "name": "Uga la Tortuga",
   "shortDescription": "Anciana y sabia tortuga",
-  "description": "Uga es una tortuga anciana conocida por su sabiduría y paciencia. Vive en un estanque tranquilo donde a menudo aconseja a otros animales con sus experiencias de vida.",
+  "description": "Huga la Tortuga es un encantador cuento para niños escrito por Diane Redfield Massie. La historia sigue a Huga, una tortuga que sueña con explorar el mundo más allá de su hogar en el océano. A pesar de las dudas y burlas de sus amigos, Huga persevera y emprende un emocionante viaje. En su aventura, descubre la importancia del valor, la determinación y la autoaceptación. A través de ilustraciones coloridas y una narrativa cautivadora, este cuento inspira a los lectores a seguir sus sueños y creer en sí mismos.",
   "imageUrl": "https://th.bing.com/th/id/OIG.4cMd5Q7B07Hb3fD7_amy?pid=ImgGn",
   "facts": {
       "curiousFact1": "Guardiana de cuentos antiguos",
       "curiousFact2": "Puede predecir cambios en el clima",
-      "genero": ["Literatura infantil"],
+      "Genero": ["Literatura infantil"],
       "RangoDeEdad": "6 a 10 años"
   }
 },
@@ -42,12 +42,12 @@ export default [
   "id": "LiebreYTortuga",
   "name": "La Liebre y la Tortuga",
   "shortDescription": "Personajes de la famosa fábula",
-  "description": "La Liebre y la Tortuga son personajes protagonistas de la famosa fábula. La historia ilustra la importancia de la perseverancia y la constancia.",
+  "description": "Huga la Tortuga es un encantador cuento para niños escrito por Diane Redfield Massie. La historia sigue a Huga, una tortuga que sueña con explorar el mundo más allá de su hogar en el océano. A pesar de las dudas y burlas de sus amigos, Huga persevera y emprende un emocionante viaje. En su aventura, descubre la importancia del valor, la determinación y la autoaceptación. A través de ilustraciones coloridas y una narrativa cautivadora, este cuento inspira a los lectores a seguir sus sueños y creer en sí mismos.",
   "imageUrl": "https://th.bing.com/th/id/OIG.22ARtDnxN8DdvuwaTf3B?pid=ImgGn",
   "facts": {
       "curiousFact1": "Fábula atribuida a Esopo",
       "curiousFact2": "Enseñanza popular en la cultura mundial",
-      "genero": ["Fábula"],
+      "Genero": ["Fábula"],
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -55,12 +55,12 @@ export default [
   "id": "HuevoQuePia",
   "name": "El Huevo que Pia",
   "shortDescription": "Un huevo especial con sorpresa",
-  "description": "Este huevo es especial porque, en lugar de romperse para revelar a un pollito, ¡pía! Es una rareza entre los huevos y ha cautivado la curiosidad de todos en la granja.",
+  "description":"El Huevo que pía es un cuento clásico infantil, donde un grupo de animales se encuentra un misterioso huevo en el bosque. Ninguno sabe qué animal podría salir de él, pero todos están emocionados por descubrirlo. Durante días, observan el huevo con ansias hasta que finalmente se rompe y nace... un pequeño patito. Al principio, los animales se sienten decepcionados, pero luego aprenden a aceptar y amar al patito, quien resulta ser muy especial. La historia enseña valores de tolerancia, aceptación y amor por la diferencia, mostrando que lo que parece diferente puede ser maravilloso.",
   "imageUrl": "https://th.bing.com/th/id/OIG.cJTRrmCVSPuCqzwD5a9V?pid=ImgGnhttps://th.bing.com/th/id/OIG.cJTRrmCVSPuCqzwD5a9V?pid=ImgGn",
   "facts": {
       "curiousFact1": "Fuente de asombro en la granja",
       "curiousFact2": "Siempre rodeado de misterio",
-      "genero": ["Literatura infantil"],
+      "Genero": ["Literatura infantil"],
       "RangoDeEdad": "3 a 5 años"
   }
 },
@@ -68,12 +68,12 @@ export default [
   "id": "PatitoFeo",
   "name": "El Patito Feo",
   "shortDescription": "Pequeño patito con un destino sorprendente",
-  "description": "El Patito Feo es un pequeño patito que, a pesar de ser diferente al principio, descubre su verdadera identidad como un hermoso cisne. La historia destaca la importancia de la autoaceptación.",
+  "description": "El Patito Feo es un cuento clásico de Hans Christian Andersen. Cuenta la historia de un patito que, desde su nacimiento, es objeto de burlas y rechazo debido a su aspecto diferente y poco agraciado. Después de sufrir numerosas adversidades y ser rechazado por los demás animales de la granja, el patito decide huir en busca de un lugar donde ser aceptado. Tras un largo viaje, descubre que es un cisne, una de las aves más hermosas y admiradas. La historia enseña valiosas lecciones sobre la autoaceptación, la perseverancia y la belleza interior.",
   "imageUrl": "https://th.bing.com/th/id/OIG.trUAtSaEEfBWO5uOTztQ?pid=ImgGn",
   "facts": {
       "curiousFact1": "Escrito por Hans Christian Andersen",
       "curiousFact2": "Mensaje de aceptación y autovaloración",
-      "genero": ["Cuento de hadas", "Literatura infantil"],
+      "Genero": ["Cuento de hadas", "Literatura infantil"],
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -81,12 +81,12 @@ export default [
   "id": "OsitoCurioso",
   "name": "El Osito Curioso",
   "shortDescription": "Aventuras de un osito que ama aprender",
-  "description": "Acompaña al Osito Curioso en sus emocionantes aventuras mientras explora el bosque y descubre el fascinante mundo que lo rodea.",
+  "description": "El Patito Feo es un cuento clásico de Hans Christian Andersen. Cuenta la historia de un patito que, desde su nacimiento, es objeto de burlas y rechazo debido a su aspecto diferente y poco agraciado. Después de sufrir numerosas adversidades y ser rechazado por los demás animales de la granja, el patito decide huir en busca de un lugar donde ser aceptado. Tras un largo viaje, descubre que es un cisne, una de las aves más hermosas y admiradas. La historia enseña valiosas lecciones sobre la autoaceptación, la perseverancia y la belleza interior.",
   "imageUrl": "https://th.bing.com/th/id/OIG.ooZJ3fAbRb4qUtqYHx65?pid=ImgGn",
   "facts": {
       "curiousFact1": "Siempre lleva consigo su mochila de explorador",
       "curiousFact2": "Tiene muchos amigos animales",
-      "genero": ["Literatura infantil"],
+      "Genero": ["Literatura infantil"],
       "RangoDeEdad": "3 a 5 años"
   }
 },
@@ -99,7 +99,7 @@ export default [
   "facts": {
       "curiousFact1": "Tiene escamas brillantes",
       "curiousFact2": "Aprende a nadar en espirales",
-      "genero": ["Literatura infantil"],
+      "Genero": ["Literatura infantil"],
       "RangoDeEdad": "6 a 10 años"
   }
 },
@@ -107,12 +107,12 @@ export default [
   "id": "RatonaRosita",
   "name": "Las Travesuras de la Ratona Rosita",
   "shortDescription": "Ratona traviesa en busca de diversión",
-  "description": "Acompaña a la Ratona Rosita mientras se embarca en travesuras encantadoras y aprende valiosas lecciones sobre la amistad y la responsabilidad.",
+  "description": "Ratona Rosita es un cuento infantil que sigue las aventuras de una pequeña ratón llamada Rosita. Rosita es curiosa y valiente, y siempre está buscando nuevas experiencias en su entorno. Un día, mientras explora un granero, descubre un rincón secreto lleno de deliciosos quesos. Sin embargo, al intentar llevarse uno, queda atrapada en una trampa para ratones. Con ingenio y determinación, Rosita logra liberarse y regresa a su madriguera con la lección aprendida: la importancia de la prudencia y la astucia. Este cuento enseña valores como la valentía, la perseverancia y la prudencia.",
   "imageUrl": "https://th.bing.com/th/id/OIG.ut23lB.pqFl2rWuTU4g1?pid=ImgGn",
   "facts": {
       "curiousFact1": "Siempre lleva un lazo rojo",
       "curiousFact2": "Tiene una colección de cuentos",
-      "genero": ["Literatura infantil"],
+      "Genero": ["Literatura infantil"],
       "RangoDeEdad": "3 a 5 años"
   }
 },
@@ -120,12 +120,12 @@ export default [
   "id": "CenicientaAmigosAnimales",
   "name": "Cenicienta y sus Amigos Animales",
   "shortDescription": "Una versión encantadora del clásico cuento",
-  "description": "Revive la historia de Cenicienta con un toque especial, destacando la amistad con sus adorables amigos animales que la ayudan a cumplir sus sueños.",
+  "description": "El cuento de Cenicienta y sus amigos animales es una versión adaptada del clásico cuento de hadas. Narra la historia de Cenicienta, una joven maltratada por su madrastra y hermanastras, que encuentra consuelo en la amistad de los animales del bosque: ratones, pájaros y otros animales pequeños. Estos amigos, con su ingenio y solidaridad, ayudan a Cenicienta a superar las adversidades y lograr su sueño de asistir al baile real. A través de la lealtad y el trabajo en equipo, el cuento resalta la importancia de la amistad y la bondad, mostrando cómo el apoyo mutuo puede conducir a la realización de los deseos más profundos.",
   "imageUrl": "https://th.bing.com/th/id/OIG.HrtZwjx795WPJHIxWauj?pid=ImgGn",
   "facts": {
       "curiousFact1": "Los amigos animales tienen nombres divertidos",
       "curiousFact2": "El hada madrina también juega un papel importante",
-      "genero": ["Cuento de hadas", "Literatura infantil"],
+      "Genero": ["Cuento de hadas", "Literatura infantil"],
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -133,12 +133,12 @@ export default [
   "id": "GatoConBotasAventuraReino",
   "name": "El Gato con Botas y la Aventura en el Reino",
   "shortDescription": "El astuto gato que conquista el corazón del reino",
-  "description": "Acompaña al Gato con Botas en una emocionante aventura para ganarse el corazón del reino y demostrar que la astucia puede vencer a cualquier adversidad.",
+  "description": "El Gato con Botas y la Aventura en el Reino es una versión moderna y adaptada del clásico cuento de hadas. En esta historia, el astuto gato con botas, que pertenece a un joven granjero, se embarca en una emocionante aventura para ayudar a su amo a conquistar el corazón de la princesa y salvar el reino de una malvada bruja. Con ingenio y astucia, el gato con botas supera numerosos desafíos y enemigos, demostrando que el coraje y la inteligencia pueden superar cualquier obstáculo. Esta versión del cuento enseña lecciones sobre la importancia de la valentía, la astucia y la amistad verdadera.",
   "imageUrl": "https://th.bing.com/th/id/OIG2.j4NowxnjROOoSoPbvsxZ?pid=ImgGn",
   "facts": {
       "curiousFact1": "Siempre lleva sus botas mágicas",
       "curiousFact2": "Tiene una habilidad especial para la estrategia",
-      "genero": ["Cuento de hadas", "Literatura infantil"],
+      "Genero": ["Cuento de hadas", "Literatura infantil"],
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -146,12 +146,12 @@ export default [
   "id": "BlancanievesSieteEnanitos",
   "name": "Blancanieves y los Siete Enanitos",
   "shortDescription": "La historia mágica de amistad y superación",
-  "description": "Descubre la mágica historia de Blancanieves, su amistad con los siete enanitos y cómo supera las adversidades con valentía y bondad.",
+  "description": "Blanca Nieve y los Siete Enanitos es un cuento de hadas clásico que narra la historia de una joven princesa llamada Blanca Nieve, quien es perseguida por su malvada madrastra, la Reina Grimhilde, debido a su belleza. Blanca Nieve encuentra refugio en una cabaña en el bosque, donde vive con siete enanitos amables y trabajadores. A través de sus aventuras, Blanca Nieve aprende lecciones sobre la bondad, la amistad y la importancia de mantenerse fiel a uno mismo. Con la ayuda de los enanitos y otros personajes, logra vencer los obstáculos y encontrar su felicidad. Este cuento enseña valores de amor, compasión y valentía.",
   "imageUrl": "https://th.bing.com/th/id/OIG3..kOh.Mpjmqdq7JgPjcWH?pid=ImgGn",
   "facts": {
       "curiousFact1": "Cada enanito tiene una personalidad única",
       "curiousFact2": "La malvada madrastra juega un papel importante en la trama",
-      "genero": ["Cuento de hadas", "Literatura infantil"],
+      "Genero": ["Cuento de hadas", "Literatura infantil"],
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -159,12 +159,12 @@ export default [
   "id": "LoboTresCerditos",
   "name": "El Lobo y los Tres Cerditos",
   "shortDescription": "Aventuras de los cerditos y el astuto lobo",
-  "description": "Sumérgete en las divertidas aventuras de los tres cerditos y el astuto lobo mientras construyen sus casas y enfrentan desafíos inesperados.",
+  "description": "El lobo y los tres cerditos es un cuento popular que sigue la historia de tres cerditos que construyen casas para protegerse del lobo feroz. Cada cerdito construye su casa de un material diferente: paja, madera y ladrillos. El lobo intenta derribar las casas para atrapar a los cerditos y comérselos. Sin embargo, solo el cerdito que construyó su casa con ladrillos logra resistir el embate del lobo. Al final, el lobo es derrotado y los cerditos aprenden la importancia del trabajo duro y la planificación. Este cuento enseña lecciones sobre la importancia de la previsión y la construcción de bases sólidas para enfrentar los desafíos.",
   "imageUrl": "https://th.bing.com/th/id/OIG2.JH4vKuk8UrOIFOwKx.Q3?pid=ImgGn",
   "facts": {
       "curiousFact1": "Cada cerdito tiene su enfoque único para construir su casa",
       "curiousFact2": "El lobo tiene trucos ingeniosos para intentar derribar las casas",
-      "genero": ["Cuento popular", "Literatura infantil"],
+      "Genero": ["Cuento popular", "Literatura infantil"],
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -172,12 +172,12 @@ export default [
   "id": "SirenitaAmigosMarinos",
   "name": "La Sirenita y sus Amigos Marinos",
   "shortDescription": "La historia mágica de la sirenita y sus amigos bajo el mar",
-  "description": "Explora el mágico mundo submarino con la Sirenita y sus amigos marinos mientras descubren tesoros y enfrentan desafíos emocionantes.",
+  "description": "La Sirenita y sus amigos marinos es un cuento clásico que narra la historia de una joven sirena llamada Ariel, quien sueña con vivir en la superficie y explorar el mundo humano. A lo largo de la historia, Ariel se hace amiga de diversos personajes marinos, como Flounder, un pez payaso, y Sebastián, un cangrejo músico. Juntos, experimentan aventuras emocionantes y ayudan a Ariel a alcanzar su deseo de vivir en tierra firme. Sin embargo, también enfrentan desafíos y peligros, incluyendo la malvada bruja del mar, Úrsula. Este cuento enseña lecciones sobre la importancia de la amistad, la valentía y la búsqueda de los propios sueños.",
   "imageUrl": "https://th.bing.com/th/id/OIG1.WgDkarCNSDkZfW7nUJRl?pid=ImgGn",
   "facts": {
       "curiousFact1": "La Sirenita tiene una cola de escamas brillantes",
       "curiousFact2": "Los amigos marinos tienen habilidades especiales",
-      "genero": ["Cuento de hadas", "Literatura infantil"],
+      "Genero": ["Cuento de hadas", "Literatura infantil"],
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -185,12 +185,12 @@ export default [
   "id": "HanselGretelBosqueEncantado",
   "name": "Hansel y Gretel en el Bosque Encantado",
   "shortDescription": "Aventuras de los hermanos en un bosque lleno de magia",
-  "description": "Acompaña a Hansel y Gretel mientras se aventuran en un bosque encantado lleno de magia, dulces y desafíos inesperados.",
+  "description":"Hansel y Gretel en el Bosque Encantado es una adaptación del clásico cuento de hadas de los hermanos Grimm. En esta versión, Hansel y Gretel se adentran en un bosque misterioso, donde descubren un mundo encantado lleno de criaturas mágicas y sorpresas. Mientras exploran, se encuentran con desafíos y peligros, incluyendo la malvada bruja que intenta engañarlos con su casa de dulces. Con astucia y valentía, los hermanos superan los obstáculos y demuestran la importancia del amor fraternal y la perseverancia. Esta adaptación del cuento clásico añade elementos de fantasía y aventura para cautivar a nuevos públicos.",
   "imageUrl": "https://th.bing.com/th/id/OIG.5SCkT9zOjtYGs1yRwulG?w=1024&h=1024&rs=1&pid=ImgDetMaingit",
   "facts": {
       "curiousFact1": "Dejan migas de pan para encontrar el camino de regreso",
       "curiousFact2": "La bruja tiene trucos mágicos",
-      "genero": ["Cuento de hadas", "Literatura infantil"],
+      "Genero": ["Cuento de hadas", "Literatura infantil"],
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -198,12 +198,12 @@ export default [
   "id": "LeonRatonAmigo",
   "name": "El León y el Ratón Amigo",
   "shortDescription": "Una historia de amistad improbable entre un león y un ratón",
-  "description": "Descubre cómo la pequeña amistad entre un león majestuoso y un ratón valiente demuestra que la ayuda puede venir de los lugares menos esperados.",
+  "description":"El León y el Ratón Amigo es una fábula clásica atribuida a Esopo y también se encuentra en las colecciones de fábulas de otros escritores, como Jean de la Fontaine. Narra la historia de un león poderoso atrapado en una red por unos cazadores. El ratón, inicialmente menospreciado por su tamaño, roe la red y libera al león. Más tarde, el león devuelve el favor al ratón al liberarlo de una trampa. Esta fábula enseña la lección de que la amistad y la gratitud son valiosas, independientemente del tamaño o la fuerza.",
   "imageUrl": "https://th.bing.com/th/id/OIG2.Ogz8cNU1BkECJvzqIXho?w=1024&h=1024&rs=1&pid=ImgDetMain",
   "facts": {
       "curiousFact1": "El ratón ayuda al león en un momento crucial",
       "curiousFact2": "Ambos personajes tienen habilidades únicas",
-      "genero": ["Fábula", "Literatura infantil"],
+      "Genero": ["Fábula", "Literatura infantil"],
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -211,12 +211,12 @@ export default [
   "id": "BellaDurmienteReinoSuenos",
   "name": "La Bella Durmiente y el Reino de los Sueños",
   "shortDescription": "Una versión encantada del clásico cuento de hadas",
-  "description": "Acompaña a la Bella Durmiente en su viaje mágico a través del reino de los sueños, donde descubre el poder de la amistad y el amor verdadero.",
+  "description": "La Bella Durmiente y el Reino de los Sueños es una adaptación moderna del clásico cuento de hadas. En esta versión, la princesa Aurora, conocida como la Bella Durmiente, cae en un sueño profundo después de ser hechizada por una malvada bruja. Sin embargo, en lugar de esperar a ser despertada por el beso de un príncipe, Aurora emprende un viaje a través de un mundo de ensueño para encontrar la clave que la liberará del hechizo. Con la ayuda de amigos mágicos y criaturas fantásticas, Aurora descubre el poder de la valentía, el amor propio y la esperanza mientras lucha por salvar a su reino de la oscuridad. Esta versión del cuento enfatiza el empoderamiento femenino y la importancia de seguir tus propios sueños.",
   "imageUrl": "https://th.bing.com/th/id/OIG3.eLzUSyzgDIEiMkmnTil5?w=1024&h=1024&rs=1&pid=ImgDetMain",
   "facts": {
       "curiousFact1": "Un hechizo de sueño profundo",
       "curiousFact2": "Príncipe valiente en busca del amor",
-      "genero": ["Cuento de hadas", "Literatura infantil"],
+      "Genero": ["Cuento de hadas", "Literatura infantil"],
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -224,12 +224,12 @@ export default [
   "id": "PulgarcitoSecretosBosqueEncantado",
   "name": "Pulgarcito y los Secretos del Bosque Encantado",
   "shortDescription": "Aventuras del pequeño Pulgarcito en un bosque lleno de sorpresas",
-  "description": "Acompaña a Pulgarcito mientras descubre los secretos fascinantes del bosque encantado y demuestra que incluso los más pequeños pueden tener grandes aventuras.",
+  "description": "Pulgarcito y los Secretos del Bosque Encantado es una adaptación del clásico cuento de hadas que narra las aventuras de un niño diminuto llamado Pulgarcito. En esta versión, Pulgarcito se aventura en un bosque mágico lleno de criaturas fantásticas y secretos ocultos. Con ingenio y valentía, Pulgarcito debe superar desafíos y enfrentarse a peligros para descubrir los secretos que protegen el equilibrio del bosque y salvar a su familia de la adversidad. En el camino, Pulgarcito aprende lecciones valiosas sobre la amistad, la solidaridad y la importancia de confiar en sí mismo. Esta adaptación del cuento clásico añade elementos de fantasía y misterio para cautivar a nuevos públicos.",
   "imageUrl": "https://th.bing.com/th/id/OIG2.sM5h9xN07xF43Wr6Cfdw?w=1024&h=1024&rs=1&pid=ImgDetMain",
   "facts": {
       "curiousFact1": "Utiliza migas de pan para encontrar su camino",
       "curiousFact2": "Amigos animales le ayudan en sus travesías",
-      "genero": ["Cuento de hadas", "Literatura infantil"],
+      "Genero": ["Cuento de hadas", "Literatura infantil"],
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -237,12 +237,12 @@ export default [
   "id": "PeterPanTierraNuncaJamas",
   "name": "Peter Pan y la Tierra de Nunca Jamás",
   "shortDescription": "Las emocionantes aventuras de Peter Pan y sus amigos en la tierra de la fantasía",
-  "description": "Vuela con Peter Pan y sus amigos a la Tierra de Nunca Jamás, donde la magia y la amistad duran para siempre, y donde enfrentan al astuto Capitán Garfio.",
+  "description": "Peter Pan y la Tierra de Nunca Jamás es una historia clásica que sigue las aventuras del niño que nunca crece, Peter Pan, y sus amigos en una tierra mágica donde el tiempo no avanza, llamada Nunca Jamás. En esta tierra, Peter Pan lidera a los Niños Perdidos, un grupo de niños que huyeron de sus hogares para vivir en la libertad de Nunca Jamás. Junto con Wendy, John y Michael Darling, Peter Pan y sus amigos enfrentan al malvado Capitán Garfio y sus piratas, exploran islas perdidas, y viven emocionantes aventuras que desafían la imaginación. Esta historia enseña sobre la importancia de la imaginación, la amistad y la libertad.",
   "imageUrl": "https://th.bing.com/th/id/OIG2.Kqb50ddaIBE8fvSXIERm?pid=ImgGn",
   "facts": {
       "curiousFact1": "Acompañado por Campanilla y los Niños Perdidos",
       "curiousFact2": "Nunca crece y vive en la isla mágica",
-      "genero": ["Fantasía", "Literatura infantil"],
+      "Genero": ["Fantasía", "Literatura infantil"],
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -255,7 +255,7 @@ export default [
     "facts": {
         "curiousFact1": "Cada zapato tiene un cordón mágico",
         "curiousFact2": "Los calcetines tienen personalidades únicas",
-        "genero": ["Fantasía","Literatura infantil"],
+        "Genero": ["Fantasía","Literatura infantil"],
         "RangoDeEdad": "6 a 10 años"
     }
 },
@@ -263,12 +263,12 @@ export default [
   "id": "FlautistaHamelinAventuraMusical",
   "name": "El Flautista de Hamelín y la Aventura Musical",
   "shortDescription": "La clásica historia del flautista que encanta a toda la ciudad",
-  "description": "Descubre cómo el talentoso Flautista de Hamelín utiliza su música para resolver problemas y llevar alegría a la ciudad en esta aventura musical encantadora.",
+  "description": "El Flautista de Hamelín y la Aventura Musical es una versión adaptada del famoso cuento folclórico. Narra la historia de un misterioso flautista que llega a la ciudad de Hamelín, donde los habitantes sufren una plaga de ratas. El flautista ofrece liberar la ciudad de las ratas con su música encantadora a cambio de una recompensa, pero al no recibirla, decide vengarse. Utilizando su flauta mágica, lleva a todos los niños de Hamelín a una mágica aventura musical, enseñándoles lecciones de amistad, bondad y valentía en el camino. Esta versión añade elementos de fantasía y música para cautivar a nuevas audiencias.",
   "imageUrl": "https://th.bing.com/th/id/OIG.ZLFi5eNV5PHT45G8H.6C?pid=ImgGn",
   "facts": {
       "curiousFact1": "Encanta a ratones y humanos con su flauta",
       "curiousFact2": "Resuelve conflictos a través de la música",
-      "genero": ["Cuento de hadas", "Literatura infantil"],
+      "Genero": ["Cuento de hadas", "Literatura infantil"],
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -276,12 +276,12 @@ export default [
   "id": "GirasolTraviesoJardinEncantado",
   "name": "El Girasol Travieso en el Jardín Encantado",
   "shortDescription": "Aventuras de un girasol que cobra vida en un jardin magico",
-  "description": "Acompaña al Girasol Travieso mientras explora un jardín encantado, descubre amigos sorprendentes y aprende sobre la importancia de la alegría y la amistad.",
+  "description": "El Girasol Travieso en el Jardín Encantado es una historia encantadora que sigue las travesuras de un girasol curioso que vive en un jardín mágico. Este girasol, llamado Travieso, siempre está buscando aventuras y nuevas experiencias en el colorido jardín. Un día, mientras explora, se encuentra con otros habitantes del jardín, como mariposas, abejas y mariquitas, quienes le enseñan lecciones importantes sobre la amistad, la naturaleza y la importancia de ser responsable. A través de sus travesuras y aprendizajes, Travieso descubre la belleza y la magia que se encuentra en su propio hogar. Esta historia está llena de color, diversión y enseñanzas para los más pequeños.",
   "imageUrl": "https://th.bing.com/th/id/OIG.6E_sPKJI5tu.Y.n0_g2Y?pid=ImgGn",
   "facts": {
       "curiousFact1": "Sus pétalos brillan cuando está feliz",
       "curiousFact2": "Tiene una risa contagiosa",
-      "genero": ["Fantasía","Literatura infantil"],
+      "Genero": ["Fantasía","Literatura infantil"],
       "RangoDeEdad": "3 a 5 años"
   }
   },
@@ -290,12 +290,12 @@ export default [
     "id": "LibroColoresOlvidados",
     "name": "El Libro de los Colores Olvidados",
     "shortDescription": "Una historia mágica sobre colores que cobran vida",
-    "description": "Descubre la encantadora historia de un libro especial que revive colores olvidados y cómo estos colores transforman el mundo de manera mágica.",
+    "description":"El Libro de los Colores Olvidados es una narrativa mágica sobre un mundo donde los colores han desaparecido misteriosamente. En esta historia, seguimos a un valiente grupo de amigos que emprenden un viaje épico para encontrar el legendario Libro de los Colores Olvidados. A lo largo de su búsqueda, enfrentan desafíos emocionantes, descubren secretos ancestrales y se encuentran con personajes mágicos que los ayudan en su misión. A medida que avanzan, aprenden lecciones sobre la importancia de la diversidad, la creatividad y la alegría que aportan los colores a nuestras vidas. Esta historia cautivadora invita a los lectores a explorar la magia de la imaginación y la belleza de la diversidad.",
     "imageUrl": "https://th.bing.com/th/id/OIG.QR2ywz.2RjTBEI2teDzt?pid=ImgGn",
     "facts": {
         "curiousFact1": "Cada color tiene su propia personalidad",
         "curiousFact2": "Los personajes viajan por diferentes paisajes de colores",
-        "genero": ["Fantasía","Literatura infantil"],
+        "Genero": ["Fantasía","Literatura infantil"],
         "RangoDeEdad": "11 a 13 años"
     }
   },
@@ -303,12 +303,12 @@ export default [
     "id": "IslaPeluchesPerdidos",
     "name": "La Isla de los Peluches Perdidos",
     "shortDescription": "Aventuras de peluches en una isla mágica",
-    "description": "Acompaña a un grupo de peluches perdidos en una isla mágica mientras buscan un nuevo hogar, enfrentan desafíos y descubren la importancia de la amistad duradera.",
+    "description":"La Isla de los Peluches Perdidos es un cuento encantador que sigue la historia de un grupo de peluches que viven en una isla misteriosa y olvidada. Estos peluches, abandonados por sus dueños, han creado su propia comunidad en la isla, donde viven aventuras emocionantes y comparten momentos de amistad y solidaridad. Sin embargo, su paz se ve amenazada cuando un malvado villano intenta apoderarse de la isla y destruir su hogar. Con valentía y trabajo en equipo, los peluches deben unirse para proteger su hogar y encontrar una solución pacífica. A lo largo de su viaje, descubren el verdadero significado de la amistad, la lealtad y el valor. Esta historia captura la imaginación de los lectores y les enseña valiosas lecciones sobre el amor y la importancia de cuidar a los demás.",
     "imageUrl": "https://th.bing.com/th/id/OIG.oqXndIJxJtMe7_sXLk2K?pid=ImgGn",
     "facts": {
         "curiousFact1": "Cada peluche tiene una habilidad única",
         "curiousFact2": "La isla tiene paisajes y criaturas mágicas",
-        "genero": ["Aventura","Literatura infantil"],
+        "Genero": ["Aventura","Literatura infantil"],
         "RangoDeEdad": "6 a 10 años"
     }
   }

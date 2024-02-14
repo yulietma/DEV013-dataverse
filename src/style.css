@@ -10,8 +10,8 @@ body {
   height: 90%;
   max-width:1900px;
   padding-top: 80px; /* Relleno superior igual a la altura de la  de filtrado*/
-}
 
+}
 
 h1 {
   height: fit-content;
@@ -51,19 +51,19 @@ footer {
   
 }
 /*Las tarjetas */
-/*.card {
- /* border-top-left-radius: 50px;
+.card {
+  border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
-  border: 10px solid  rgba(12, 141, 253, 0.685);
+  /*border: 10px solid  rgba(12, 141, 253, 0.685);*/
   position: relative;
   overflow: hidden;
-  /*transition: heigth 0.5s ease;*/
- /* flex-basis: calc(33.33% - 20px);
+  transition: heigth 0.5s ease;
+  flex-basis: calc(33.33% - 20px);
   transition: flex-basis 0.5s;
   transition: transform 0.3 ease; 
-  /*width: 300px;/*Ancho de mis card*/
-
-/*}
+  width: 300px;/*Ancho de mis card*/
+  margin: 6%;
+}
 /*Diseño de primera cara */
 .PrimeraCara{
 
@@ -77,37 +77,42 @@ footer {
   position:absolute;
   bottom: 0;/*Posiciona mi titulo en la parte inferior*/
   text-align:center;/*Posision de mi texto Titulo*/
-  font-size: 1.6vw;/* tamaño de texto en relacion con el ancho de la ventana*/
+  font-size: 1.9vw;/* tamaño de texto en relacion con el ancho de la ventana*/
   color: #ffffff;
-  background-color: rgba(54, 52, 54, 0.575);/*Fondo de Titulo de cuento*/
+  background-color: rgba(54, 52, 54, 0.671);/*Fondo de Titulo de cuento*/
   border-bottom-left-radius: 25%;/* Borde de parte inferior izquierda*/
   border-bottom-right-radius: 25%;/* Borde de parte inferior derecha */
   padding-left: 20px;/* Relleno izquierdo del fondo */
+  width: 300px;/*Ancho d emi fondo tranparente de titulo*/
 }
 /* Diseño de solo la imagen */
 #Img{
-  border: 5px  solid rgb(238, 238, 238);/*color de borde para imagen*/
- width: 300px;/*Ancho de mi imagen*/
- height: 265px;/*Largo d emi imagen*/
+  border: 5px  solid rgb(255, 255, 255);/*color de borde para imagen*/
+ width: 350px;/*Ancho de mi imagen*/
+ height: 335px;/*Largo d emi imagen*/
   border-radius: 15%;/* Tipo de brode de mi imagen*/
 }
 /*Animacion de tarjeta */
 .card:hover{
   height:auto;
-  flex-basis: 100%;
+  flex-basis: 450px;
 }
 /* Diseño de la  data de SegundaCara */
 .card .SegundaCara{
   position: absolute;
   top:100%;
   left: 0;
-  /*width: 300px;/*Ancho de mi data SegundaCara*/
-  /*height: auto;*/
-  background-color:rgb(252, 252, 252);
+  width: 350px;/*Ancho de mi data SegundaCara*/
+  height: 335px;
+  background-color:rgba(252, 252, 252, 0.692);
   padding: 20px;
   /*box-sizing: border-box ;*/
   transition: top 0.5s ease;
-  border-radius: 10px;/*tipo de borodo para mi segundacara*/
+  border-radius: 15px;/*tipo de borodo para mi segundacara*/
+  overflow: hidden;
+  word-wrap: break-word;
+  overflow-y: auto; /* Agrega un scroll vertical si el contenido excede la altura */
+  
 }
 .card:hover .SegundaCara{
   top:0;
@@ -117,17 +122,19 @@ footer {
 /*Se crea las colmnas*/
 .Contenedor{
  border: 1px, solid black;
- background-color: brown;
- padding: 20px;
- display:flex;
- flex-direction: row;
- flex-wrap:wrap ;
- width: 100%;
-
-
-
+ background: linear-gradient(to top, rgb(5, 22, 66) -10%, rgba(113, 159, 212, 0.856) 50%, rgba(254, 255, 255, 0.911) 100%); /* Degradado de color de fondo */
+ padding: 20px;/*espacio interior de  */
+ display:flex;/* desto es flexbox*/
+ flex-direction: row;/*direciona los elementos en fila*/
+ flex-wrap:wrap ;/*ajusta los elementos a multipes linea*/
+ width: 100%;/*amcho de mi contenedor*/
+ /*background-image: url(https://th.bing.com/th/id/OIG3.Cffz1BrkGK3eBsrYavJs?pid=ImgGn);
+background-size: cover;
+background-position: absolute;*/
 }
-.card{
+
+
+/*.card{
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border: 10px solid rgba(54, 52, 54, 0.575);
@@ -139,7 +146,7 @@ footer {
   background-color: rgb(252, 60, 12);
   transition:flex-basis  0.5s, transform 0.3s ease;
   
-}
+}*/
 
 .content {
   max-width: 1200px;
@@ -175,7 +182,7 @@ font-family: 'Poppins', sans-serif;
   width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
 	top: 0; /* Posicionamos la cabecera pegada arriba */
-	position: fixed; /* Hacemos que la cabecera tenga una posición */
+	position: absolute; /* Hacemos que la cabecera tenga una posición */
 }
 
 label {
