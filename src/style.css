@@ -53,6 +53,10 @@ footer {
 
 .seccion {
   padding: 320px; /* Espacio alrededor del contenido */
+  display: grid;
+  height: 300px;
+  height: 200px; width: 200px;
+  display: inline-table;
 }
 
 .seccion2 {
