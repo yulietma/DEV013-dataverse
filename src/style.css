@@ -58,7 +58,7 @@ footer {
   display: grid;
 }
 
-.seccion2 {
+.seccion3 {
   padding: 520px; /* Espacio alrededor del contenido */
   background-image: url(assets/img/footer.png);
   background-size:cover; /* Cubrir todo el fondo */
@@ -228,16 +228,18 @@ label {
   font-size: 17px;
 }
 
-.seccionbutton {
+.ReadMore {
+  display: flex;
   font-family: "Cinzel", serif;
   font-size: 10px;
   display: flex;
   justify-content: center;
-  margin-top: -900px;
-  padding: 550px;
+  margin-top: -790px;
+  padding: 400px;
 }
 
-.ReadMore {
+
+#scrollButton {
   font-size: 39px;
   color: rgb(252, 252, 252);
   text-shadow:
@@ -249,4 +251,6 @@ label {
   border-radius: 5px;
   border-color: #fff;
   padding: 14px 28px; 
+  cursor: pointer;
+  
 }
