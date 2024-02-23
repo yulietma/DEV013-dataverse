@@ -8,7 +8,7 @@ document.getElementById('root').appendChild(renderItems(data));
 const selectElement = document.querySelector("#filter");
 const root = document.querySelector("#root");
 
-// Evento change para el elemento select
+// Evento change para el elemento selectt
 selectElement.addEventListener("change", (event)=>{
   let selectGender = selectElement.options[selectElement.selectedIndex].value
   console.log(selectGender);
