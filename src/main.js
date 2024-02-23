@@ -1,11 +1,21 @@
-import { example } from './dataFunctions.js';
+import { filterGender } from './dataFunctions.js';
 import { renderItems } from './view.js';
+import data from './data/dataset.js'; // Importa los datos primero
 
-import data from './data/dataset.js';
-//Carpeta donde se mostrará toda interacción con el DOMM
-// renderio data de forma dinamica
-// creacion de elemento
-//pendiente cargar 
 
-document.getElementById('root').appendChild(renderItems(data))
-console.log(renderItems(data));
+document.getElementById('root').appendChild(renderItems(data));
+
+const selectElement = document.querySelector("#filter");
+const root = document.querySelector("#root");
+
+// Evento change para el elemento select
+selectElement.addEventListener("change", (event)=>{
+  let selectGender = selectElement.options[selectElement.selectedIndex].value
+  console.log(selectGender);
+
+  let resultFilter = filterGender(data, selectGender)
+  console.log(resultFilter);
+root.appendChild(renderItems(resultFilter))
+
+root.appendChild="";
+}); 

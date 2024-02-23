@@ -8,7 +8,7 @@ export default [
     "facts": {
         "curiousFact1": "Anhela ser un niño de verdad",
         "curiousFact2": "Acompañado por su conciencia, Pepito Grillo",
-        "Genero": ["Literatura infantil", "Fábula"],
+        "genero": "Literatura infantil",
         "RangoDeEdad": "Todas las edades"
     }
 },
@@ -21,7 +21,7 @@ export default [
   "facts": {
       "curiousFact1": "Tiene una memoria excepcional",
       "curiousFact2": "Siempre lleva consigo una mariposa como amuleto de la suerte",
-      "Genero": ["Literatura infantil"],
+      "genero": "Literatura infantil",
       "RangoDeEdad": "3 a 5 años"
   }
 },
@@ -34,7 +34,7 @@ export default [
   "facts": {
       "curiousFact1": "Guardiana de cuentos antiguos",
       "curiousFact2": "Puede predecir cambios en el clima",
-      "Genero": ["Literatura infantil"],
+      "genero": "Literatura infantil",
       "RangoDeEdad": "6 a 10 años"
   }
 },
@@ -47,7 +47,7 @@ export default [
   "facts": {
       "curiousFact1": "Fábula atribuida a Esopo",
       "curiousFact2": "Enseñanza popular en la cultura mundial",
-      "Genero": ["Fábula"],
+      "genero": "Fábula",
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -60,7 +60,7 @@ export default [
   "facts": {
       "curiousFact1": "Fuente de asombro en la granja",
       "curiousFact2": "Siempre rodeado de misterio",
-      "Genero": ["Literatura infantil"],
+      "genero": "Literatura infantil",
       "RangoDeEdad": "3 a 5 años"
   }
 },
@@ -73,7 +73,7 @@ export default [
   "facts": {
       "curiousFact1": "Escrito por Hans Christian Andersen",
       "curiousFact2": "Mensaje de aceptación y autovaloración",
-      "Genero": ["Cuento de hadas", "Literatura infantil"],
+      "genero": "Cuento de hadas",
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -86,7 +86,7 @@ export default [
   "facts": {
       "curiousFact1": "Siempre lleva consigo su mochila de explorador",
       "curiousFact2": "Tiene muchos amigos animales",
-      "Genero": ["Literatura infantil"],
+      "genero": "Literatura infantil",
       "RangoDeEdad": "3 a 5 años"
   }
 },
@@ -99,7 +99,7 @@ export default [
   "facts": {
       "curiousFact1": "Tiene escamas brillantes",
       "curiousFact2": "Aprende a nadar en espirales",
-      "Genero": ["Literatura infantil"],
+      "genero": "Literatura infantil",
       "RangoDeEdad": "6 a 10 años"
   }
 },
@@ -112,7 +112,7 @@ export default [
   "facts": {
       "curiousFact1": "Siempre lleva un lazo rojo",
       "curiousFact2": "Tiene una colección de cuentos",
-      "Genero": ["Literatura infantil"],
+      "genero": "Literatura infantil",
       "RangoDeEdad": "3 a 5 años"
   }
 },
@@ -125,7 +125,7 @@ export default [
   "facts": {
       "curiousFact1": "Los amigos animales tienen nombres divertidos",
       "curiousFact2": "El hada madrina también juega un papel importante",
-      "Genero": ["Cuento de hadas", "Literatura infantil"],
+      "genero": "Cuento de hadas",
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -138,7 +138,7 @@ export default [
   "facts": {
       "curiousFact1": "Siempre lleva sus botas mágicas",
       "curiousFact2": "Tiene una habilidad especial para la estrategia",
-      "Genero": ["Cuento de hadas", "Literatura infantil"],
+      "genero": "Cuento de hadas",
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -151,7 +151,7 @@ export default [
   "facts": {
       "curiousFact1": "Cada enanito tiene una personalidad única",
       "curiousFact2": "La malvada madrastra juega un papel importante en la trama",
-      "Genero": ["Cuento de hadas", "Literatura infantil"],
+      "genero": "Cuento de hadas",
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -164,7 +164,7 @@ export default [
   "facts": {
       "curiousFact1": "Cada cerdito tiene su enfoque único para construir su casa",
       "curiousFact2": "El lobo tiene trucos ingeniosos para intentar derribar las casas",
-      "Genero": ["Cuento popular", "Literatura infantil"],
+      "genero": "Cuento popular",
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -177,7 +177,7 @@ export default [
   "facts": {
       "curiousFact1": "La Sirenita tiene una cola de escamas brillantes",
       "curiousFact2": "Los amigos marinos tienen habilidades especiales",
-      "Genero": ["Cuento de hadas", "Literatura infantil"],
+      "genero": "Cuento de hadas",
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -190,7 +190,7 @@ export default [
   "facts": {
       "curiousFact1": "Dejan migas de pan para encontrar el camino de regreso",
       "curiousFact2": "La bruja tiene trucos mágicos",
-      "Genero": ["Cuento de hadas", "Literatura infantil"],
+      "genero": "Cuento de hadas",
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -203,7 +203,7 @@ export default [
   "facts": {
       "curiousFact1": "El ratón ayuda al león en un momento crucial",
       "curiousFact2": "Ambos personajes tienen habilidades únicas",
-      "Genero": ["Fábula", "Literatura infantil"],
+      "genero": "Fábula",
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -216,7 +216,7 @@ export default [
   "facts": {
       "curiousFact1": "Un hechizo de sueño profundo",
       "curiousFact2": "Príncipe valiente en busca del amor",
-      "Genero": ["Cuento de hadas", "Literatura infantil"],
+      "genero": "Cuento de hadas",
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -229,7 +229,7 @@ export default [
   "facts": {
       "curiousFact1": "Utiliza migas de pan para encontrar su camino",
       "curiousFact2": "Amigos animales le ayudan en sus travesías",
-      "Genero": ["Cuento de hadas", "Literatura infantil"],
+      "genero": "Literatura infantil",
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -242,7 +242,7 @@ export default [
   "facts": {
       "curiousFact1": "Acompañado por Campanilla y los Niños Perdidos",
       "curiousFact2": "Nunca crece y vive en la isla mágica",
-      "Genero": ["Fantasía", "Literatura infantil"],
+      "genero": "Fantasía",
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -255,7 +255,7 @@ export default [
     "facts": {
         "curiousFact1": "Cada zapato tiene un cordón mágico",
         "curiousFact2": "Los calcetines tienen personalidades únicas",
-        "Genero": ["Fantasía","Literatura infantil"],
+        "genero": "Fantasía",
         "RangoDeEdad": "6 a 10 años"
     }
 },
@@ -268,7 +268,7 @@ export default [
   "facts": {
       "curiousFact1": "Encanta a ratones y humanos con su flauta",
       "curiousFact2": "Resuelve conflictos a través de la música",
-      "Genero": ["Cuento de hadas", "Literatura infantil"],
+      "genero": "Cuento de hadas",
       "RangoDeEdad": "Todas las edades"
   }
 },
@@ -281,7 +281,7 @@ export default [
   "facts": {
       "curiousFact1": "Sus pétalos brillan cuando está feliz",
       "curiousFact2": "Tiene una risa contagiosa",
-      "Genero": ["Fantasía","Literatura infantil"],
+      "genero": "Fantasía",
       "RangoDeEdad": "3 a 5 años"
   }
   },
@@ -295,7 +295,7 @@ export default [
     "facts": {
         "curiousFact1": "Cada color tiene su propia personalidad",
         "curiousFact2": "Los personajes viajan por diferentes paisajes de colores",
-        "Genero": ["Fantasía","Literatura infantil"],
+        "genero": "Fantasía",
         "RangoDeEdad": "11 a 13 años"
     }
   },
@@ -308,7 +308,7 @@ export default [
     "facts": {
         "curiousFact1": "Cada peluche tiene una habilidad única",
         "curiousFact2": "La isla tiene paisajes y criaturas mágicas",
-        "Genero": ["Aventura","Literatura infantil"],
+        "genero": "Aventura",
         "RangoDeEdad": "6 a 10 años"
     }
   }

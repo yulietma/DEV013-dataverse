@@ -56,6 +56,7 @@ footer {
   justify-content: center;
   padding: 320px; /* Espacio alrededor del contenido */
   display: grid;
+  margin-top: 80px;
 }
 
 .seccion3 {
@@ -149,21 +150,6 @@ background-size: cover;
 background-position: absolute;*/
 }
 
-
-/*.card{
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border: 10px solid rgba(54, 52, 54, 0.575);
-  position: relative;
-  overflow: hidden;
-  flex-basis: calc(50% - 20px);
-  margin: 10px;
-  padding: 20px;
-  background-color: rgb(252, 60, 12);
-  transition:flex-basis  0.5s, transform 0.3s ease;
-  
-}*/
-
 .content {
   max-width: 1200px;
   width: 90%;
@@ -190,16 +176,17 @@ font-family: 'Poppins', sans-serif;
 
 #main-header {
   background: #00050a;
- text-align: justify;
-	color: white;
-	height: 80px;
+  text-align: justify;
+  color: white;
+  height: 80px;
   font-weight: 20;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
   width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-	left: 0; /* Posicionamos la cabecera al lado izquierdo */
-	top: 0; /* Posicionamos la cabecera pegada arriba */
-	position: absolute; /* Hacemos que la cabecera tenga una posición */
+  left: 0; /* Posicionamos la cabecera al lado izquierdo */
+  top: 0; /* Posicionamos la cabecera pegada arriba */
+  position: fixed; /* Hacemos que la cabecera tenga una posición */
+  z-index: 9999; /* Ajusta el valor según sea necesario para asegurar que esté por encima de todo el contenido */
 }
 
 label {
@@ -226,6 +213,7 @@ label {
   font-family: 'Poppins', sans-serif;
   font-weight: 17;
   font-size: 17px;
+  
 }
 
 .ReadMore {

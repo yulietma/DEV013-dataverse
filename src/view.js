@@ -20,8 +20,8 @@ export const renderItems = (data) => {
       <div class="SegundaCara">
       
       <dl>
-      <dt> Genero:</dt>
-      <dd interprop="Genero"> ${element.facts.Genero}</dd>
+      <dt>genero:</dt>
+      <dd interprop="genero"> ${element.facts.genero}</dd>
 
       <dt>Descripción:</dt>
       <dd itemprop="description">${element.description}</dd>
