@@ -8,7 +8,7 @@ export default [
     "facts": {
         "curiousFact1": "Anhela ser un niño de verdad",
         "curiousFact2": "Acompañado por su conciencia, Pepito Grillo",
-        "Genero": ["Literatura infantil", "Fábula"],
+        "Genero": ["Literatura infantil", "Fábula",],
         "RangoDeEdad": "Todas las edades"
     }
 },
@@ -21,7 +21,7 @@ export default [
   "facts": {
       "curiousFact1": "Tiene una memoria excepcional",
       "curiousFact2": "Siempre lleva consigo una mariposa como amuleto de la suerte",
-      "Genero": ["Literatura infantil"],
+      "Genero": "Literatura infantil",
       "RangoDeEdad": "3 a 5 años"
   }
 },
@@ -34,7 +34,7 @@ export default [
   "facts": {
       "curiousFact1": "Guardiana de cuentos antiguos",
       "curiousFact2": "Puede predecir cambios en el clima",
-      "Genero": ["Literatura infantil"],
+      "Genero": "Literatura infantil",
       "RangoDeEdad": "6 a 10 años"
   }
 },
