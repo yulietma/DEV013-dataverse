@@ -16,7 +16,7 @@ export const filterGender = (data, filterBy, selectGender) => {
     })
   };
 
-//Segundo filtrado, rango edad.
+//Segundo filtrado, rango edad..
 export const filterByAge = (data, range) => {
   console.log (range);
   return data.filter( item => {
