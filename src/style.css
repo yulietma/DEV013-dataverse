@@ -209,6 +209,13 @@ label {
   color: black;
 }
 
+#orderad {
+  font-weight: 15;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
 .cleanerButton {
   font-family: 'Poppins', sans-serif;
   font-weight: 17;

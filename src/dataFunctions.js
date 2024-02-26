@@ -1,10 +1,12 @@
 // Estas funciones son ejemplos aquí puedes desarrollar tus propias funciones.
 //Este archivo va a contener toda la funcionalidad que corresponda a obtener, procesar y manipular datos (tus funciones).
 
-export const filterGender = (data, gender) => {
-  console.log(gender);
+
+//Primer filtrado, género
+export const filterGender = (data, filterBy, selectGender) => {
+  console.log(selectGender);
   return data.filter( item => {
-    if (gender === item.facts.genero){
+    if (selectGender === item.facts.genero){
       return true;
     }
     else {
@@ -14,9 +16,7 @@ export const filterGender = (data, gender) => {
     })
   };
 
-
-export const anotherExample = () => {
-  return [];
+//Segundo filtrado, rango edad
 export const filterByAge = (data, range) => {
   console.log (range);
   return data.filter( item => {
@@ -25,45 +25,29 @@ export const filterByAge = (data, range) => {
    } else {
     return false;
    }
-    
-  });
-};
+  })
+  };
+
  //Funcion para botòn deslizante//
  document.getElementById('scrollButton').addEventListener('click', function() {
   const root = document.getElementById('root');
   root.scrollIntoView({ behavior: 'smooth' });
 });
 
+/*Funcion rdenamiento
+export const sortBook = (data, sortBy, sortOrder) => {
+    data.sort((a, b) => {
+      const bookA = a[sortBy].toLowerCase();
+      const bookB = b[sortBy].toLowerCase();
+  
+      if (sortOrder === "asc") {
+        return bookA.localeCompare(bookB);
+      } else if (sortOrder === "desc") {
+        return bookB.localeCompare(bookA);
+      }
+    });
+    return data;
+  };*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-//Funcion ordenamiento alfabetico
-export const sortData = (data, sortBy, sortOrder) => {
-  if (data.length === 0) {
-    return false;
-  }
-
-  allData.sort((a, b) => {
-    const nameA = a[sortBy].toLowerCase();
-    const nameB = b[sortBy].toLowerCase();
-
-    if (allData === "asc") {
-      return nameA.localeCompare(nameB);
-
-    } else if (allData === "desc") {
-      return nameB.localeCompare(nameA);
-    }
-  });
-
-  return allData;
-};
