@@ -1,4 +1,6 @@
+const root = document.querySelector("#root");
 export const renderItems = (data) => {
+  root.innerHTML = "";
   const ul = document.createElement('ul')
   ul.classList.add('Contenedor')//agregamos una clase a el elemneto ul
   for (let i = 0; i < data.length; i++) {
@@ -12,8 +14,8 @@ export const renderItems = (data) => {
       <div class="SegundaCara">
       
       <dl>
-      <dt> Genero:</dt>
-      <dd interprop="Genero"> ${element.facts.Genero}</dd>
+      <dt>genero:</dt>
+      <dd interprop="genero"> ${element.facts.genero}</dd>
 
       <dt>Descripción:</dt>
       <dd itemprop="description">${element.description}</dd>
