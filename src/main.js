@@ -33,7 +33,7 @@ root.appendChild(renderItems(resultAge));
  });
 
 /*
- //Funcion ordenamiento
+ Funcion ordenamiento
  orderBook.addEventListener("change", function () {
   selectElement.value = "Seleccionar";
   const selectOrder = orderBook.value;
