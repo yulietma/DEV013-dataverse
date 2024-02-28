@@ -3,7 +3,7 @@
 
 
 //Primer filtrado, género
-export const filterGender = (data, filterBy, selectGender) => {
+export const filterGender = (data, selectGender) => {
   console.log(selectGender);
   return data.filter( item => {
     if (selectGender === item.facts.genero){
@@ -34,20 +34,19 @@ export const filterByAge = (data, range) => {
   root.scrollIntoView({ behavior: 'smooth' });
 });
 
-/*Funcion rdenamiento
-export const sortBook = (data, sortBy, sortOrder) => {
-    data.sort((a, b) => {
-      const bookA = a[sortBy].toLowerCase();
-      const bookB = b[sortBy].toLowerCase();
+/*Funcion ordenamiento
+- data: Es el arreglo de objetos que se va a ordenar. Cada objeto en este arreglo representa un elemento que se ordenará, como un libro en este caso.
+- sortBy: Es la clave o propiedad por la cual se va a ordenar cada objeto en el arreglo data. Indica qué característica del objeto se utilizará para determinar el orden, como el título del libro, el autor, etc.
+- ortOrder: Es el orden en el que se deben ordenar los objetos en el arreglo data. Puede ser "asc" para ascendente (de menor a mayor) o "desc" para descendente (de mayor a menor). Este parámetro determina la dirección de la ordenación.
+*/
+
+export const sortData = (data, sortBy, sortOrder) => {
+  data.sort((a, b) => {
+    const valueA = a[sortBy];
+    const valueB = b[sortBy];
+    const compare = valueA.localeCompare(valueB);
+    console.log(compare);
+    return sortOrder === "asc" ? compare : compare * -1;  });
   
-      if (sortOrder === "asc") {
-        return bookA.localeCompare(bookB);
-      } else if (sortOrder === "desc") {
-        return bookB.localeCompare(bookA);
-      }
-    });
-    return data;
-  };*/
-
-
-
+  return data;
+};
