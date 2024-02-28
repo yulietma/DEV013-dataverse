@@ -1,4 +1,4 @@
-import { filterGender, filterByAge, clearFilters} from './dataFunctions.js';
+import { filterGender, filterByAge, clearFilters } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js'; // Importa los datos primero
 
@@ -7,38 +7,37 @@ document.getElementById('root').appendChild(renderItems(data));
 
 const selectElement = document.querySelector("#filter");
 const root = document.querySelector("#root");
-const selectAge= document.querySelector("#order")
-//const orderBook = document.querySelector("#orderad");
+const selectAge = document.querySelector("#order")
+
 
 
 // Evento change para el elemento select, género.
-selectElement.addEventListener("change", ()=>{
+selectElement.addEventListener("change", () => {
   const selectGender = selectElement.options[selectElement.selectedIndex].value
-  // console.log(selectGender);
+
 
   const resultFilter = filterGender(data, selectGender)
   root.innerHTML = "";
   root.appendChild(renderItems(resultFilter));
-}); 
+});
 
 
 // Evento change por Filtro rango de edad 
-selectAge.addEventListener("change", () => {
+selectAge.addEventListener("change", (event) => {
   const range = selectAge.options[selectAge.selectedIndex].value;
-  //console.log(range);
 
-  const  resultAge= filterByAge(data,range)
+  const resultAge = filterByAge(data, range)
   root.innerHTML = "";
   root.appendChild(renderItems(resultAge));
 });
 
 /* boton de limpiar filtros */
-document.querySelector(".clearButton").addEventListener("click",()=>{
-    root.innerHTML="";//limpia contenedor
-    root.appendChild(renderItems(clearFilters(data)));//renderia de nuevo la data original
- selectElement.selectedIndex=0;// lo establece  ala opcion pre determinada al inicio 
- selectAge.selectedIndex=0;
- 
+document.querySelector(".clearButton").addEventListener("click", (event) => {
+  root.innerHTML = "";//limpia contenedor
+  root.appendChild(renderItems(clearFilters(data)));//renderia de nuevo la data original
+  selectElement.selectedIndex = 0;// lo establece  ala opcion pre determinada al inicio 
+  selectAge.selectedIndex = 0;
+
 });
 
 
