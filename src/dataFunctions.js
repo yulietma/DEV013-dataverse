@@ -5,34 +5,34 @@
 //Primer filtrado, género
 export const filterGender = (data, selectGender) => {
   console.log(selectGender);
-  return data.filter( item => {
-    if (selectGender === item.facts.genero){
+  return data.filter(item => {
+    if (selectGender === item.facts.genero) {
+
       return true;
     }
     else {
       return false;
     }
-    
-    })
-  };
+  })
+};
 
 //Segundo filtrado, rango edad..
 export const filterByAge = (data, range) => {
-  console.log (range);
-  return data.filter( item => {
-   if( range === item.facts.RangoDeEdad){
-    return true;
-   } else {
-    return false;
-   }
+  // console.log (range);
+  return data.filter(item => {
+    if (range === item.facts.RangoDeEdad) {
+      return true;
+    } else {
+      return false;
+    }
   })
-  };
-
- //Funcion para botòn deslizante//
- document.getElementById('scrollButton').addEventListener('click', function() {
+};
+//Funcion para botòn deslizante//
+document.getElementById('scrollButton').addEventListener('click', function () {
   const root = document.getElementById('root');
   root.scrollIntoView({ behavior: 'smooth' });
 });
+
 
 /*Funcion ordenamiento
 - data: Es el arreglo de objetos que se va a ordenar. Cada objeto en este arreglo representa un elemento que se ordenará, como un libro en este caso.
@@ -47,6 +47,9 @@ export const sortData = (data, sortBy, sortOrder) => {
     const compare = valueA.localeCompare(valueB);
     console.log(compare);
     return sortOrder === "asc" ? compare : compare * -1;  });
-  
-  return data;
+
+/*Funcion de Limpiar filtros */
+export const clearFilters = (data) => {// se crea la funcion y la exportamos
+  return data;//muestrame la data 
+
 };

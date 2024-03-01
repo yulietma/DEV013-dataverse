@@ -1,4 +1,4 @@
-import { filterGender, filterByAge, sortData} from './dataFunctions.js';
+import { filterGender, filterByAge, sortData, clearFilters} from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js'; // Importa los datos primero
 
@@ -11,6 +11,7 @@ const root = document.querySelector("#root");
 const selectAge= document.querySelector("#order")
 const orderBook = document.querySelector("#orderad");
 filteredData = [...data];
+
 
 // Evento change para el elemento select, género.
 selectElement.addEventListener("change", ()=>{
@@ -33,6 +34,15 @@ console.log(resultAge);
 root.appendChild(renderItems(resultAge));
  });
 
+
+//CleanButton
+document.querySelector(".clearButton").addEventListener("click", (event) => {
+  root.innerHTML = "";//limpia contenedor
+  root.appendChild(renderItems(clearFilters(data)));//renderia de nuevo la data original
+  selectElement.selectedIndex = 0;// lo establece  ala opcion pre determinada al inicio 
+  selectAge.selectedIndex = 0;
+
+});
  
 // Evento change para el ordenamiento
 orderBook.addEventListener("change", (event) => {
