@@ -1,19 +1,18 @@
-const root = document.querySelector("#root");
+
 export const renderItems = (data) => {
   root.innerHTML = "";
-  
   const ul = document.createElement('ul')
   ul.classList.add('Contenedor')//agregamos una clase a el elemneto ul
   for (let i = 0; i < data.length; i++) {
-      const element = data[i];
+    const element = data[i];
 
-      ul.innerHTML += `<li class="card" itemscope itemtype="${element.name}">
+    ul.innerHTML += `<li class="card" itemscope itemtype="${element.name}">
       <div class="PrimeraCara">
       <h2 itemprop="name">${element.name}</h2>
       <img id="Img" src="${element.imageUrl}" alt="${element.name}" itemprop="image" />
       </div>
       <div class="SegundaCara">
-      
+    
       <dl>
       <dt>genero:</dt>
       <dd interprop="genero"> ${element.facts.genero}</dd>
