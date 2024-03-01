@@ -176,18 +176,20 @@ font-family: 'Poppins', sans-serif;
 
 #main-header {
   background: #00050a;
-  text-align: justify;
   color: white;
-  height: 80px;
-  font-weight: 20;
+  height: auto;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
-  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-  left: 0; /* Posicionamos la cabecera al lado izquierdo */
-  top: 0; /* Posicionamos la cabecera pegada arriba */
-  position: fixed; /* Hacemos que la cabecera tenga una posición */
-  z-index: 9999; /* Ajusta el valor según sea necesario para asegurar que esté por encima de todo el contenido */
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: 9999;
+  text-align: center; /* Centramos el texto */
+  padding: 10px 0; /* Agregamos espacio interno arriba y abajo */
 }
+
+
 
 label {
   margin: 0;
@@ -249,3 +251,78 @@ label {
   cursor: pointer;
   
 }
+
+/*Parte Rresponsive*/
+@media screen and (max-width: 1199px) {
+  body {
+    padding-top: 40px;
+  }
+  h1 {
+    font-size: 90px;
+    margin-top: -200px;
+  }
+  p {
+    margin-top: -300px;
+    font-size: 20px;
+  }
+  .seccion {
+    padding: 200px;
+  }
+  .seccion3 {
+    padding: 300px;
+  }
+  .card {
+    flex-basis: calc(50% - 20px);
+    width: 45%;
+  }
+  .PrimeraCara h2 {
+    font-size: 1.3em;
+    width: 250px;
+  }
+  #Img {
+    width: 280px;
+    height: 270px;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+  body {
+    padding-top: 20px;
+  }
+  h1 {
+    font-size: 60px;
+    margin-top: -150px;
+  }
+  p {
+    margin-top: -200px;
+    font-size: 18px;
+  }
+  .seccion {
+    padding: 100px;
+  }
+  .seccion3 {
+    padding: 150px;
+  }
+  .card {
+    flex-basis: calc(100% - 20px);
+    width: 100%;
+  }
+  .PrimeraCara h2 {
+    font-size: 1.1em;
+    width: 200px;
+  }
+  #Img {
+    width: 200px;
+    height: 190px;
+  }
+}
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+  #main-header {
+    padding: 0; /* Eliminamos el espacio interno para que el botón ocupe todo el ancho */
+    line-height: 50px; /* Ajustamos la altura del encabezado para que coincida con la del botón */
+    cursor: pointer; /* Cambiamos el cursor a un indicador de clic */
+  }
+}
+  
