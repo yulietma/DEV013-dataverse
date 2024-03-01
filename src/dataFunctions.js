@@ -48,6 +48,9 @@ export const sortData = (data, sortBy, sortOrder) => {
     console.log(compare);
     return sortOrder === "asc" ? compare : compare * -1;  });
 
+  return data;
+};
+
 /*Funcion de Limpiar filtros */
 export const clearFilters = (data) => {// se crea la funcion y la exportamos
   return data;//muestrame la data 

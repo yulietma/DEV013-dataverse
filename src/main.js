@@ -41,6 +41,7 @@ document.querySelector(".clearButton").addEventListener("click", (event) => {
   root.appendChild(renderItems(clearFilters(data)));//renderia de nuevo la data original
   selectElement.selectedIndex = 0;// lo establece  ala opcion pre determinada al inicio 
   selectAge.selectedIndex = 0;
+  orderBook.selectedIndex = 0;
 
 });
  
