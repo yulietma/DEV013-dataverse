@@ -45,7 +45,7 @@ document.querySelector(".clearButton").addEventListener("click", (event) => {
 
 });
  
-// Evento change para el ordenamiento
+// Evento change para el ordenamiento.
 orderBook.addEventListener("change", (event) => {
   
   // Ordenamos los datos filtrados por nombre

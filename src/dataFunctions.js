@@ -2,7 +2,7 @@
 //Este archivo va a contener toda la funcionalidad que corresponda a obtener, procesar y manipular datos (tus funciones).
 
 
-//Primer filtrado, género
+//Primer filtrado, género.
 export const filterGender = (data, selectGender) => {
   console.log(selectGender);
   return data.filter(item => {
