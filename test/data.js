@@ -2,51 +2,55 @@
 // al menos debe tener uno que se llame "data"
 
 export const data = [{
-  "id": "ada-lovelace",
-  "name": "Ada Lovelace",
-  "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-  "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+  "id": "Pinocho",
+  "name": "Pinocho",
+  "shortDescription": "Muñeco de madera que cobra vida",
+  "description": "Pinocho es un clásico cuento para niños escrito por Carlo Collodi. Narra la historia de un muñeco de madera tallado por el bondadoso Geppetto, quien sueña con tener un hijo. La marioneta cobra vida gracias a la hada Azul, pero su nariz crece cuando miente. Pinocho se embarca en diversas aventuras, enfrentando peligros y aprendiendo lecciones sobre la honestidad y la responsabilidad. Con personajes entrañables y situaciones emocionantes, el cuento enseña valiosas lecciones morales de una manera divertida y cautivadora",
+  "imageUrl": "https://th.bing.com/th/id/OIG.Hx9k0_XgQwnbWEsPAQnf?pid=ImgGn",
   "facts": {
-    "yearOfBirth": "1815",
-    "yearOfDeath": "1852",
-    "birthPlace": "Londres, Reino Unido",
-    "mainField": "Ciencia de la Computación"
-  },
-  "extraInfo": {
-    "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+    "curiousFact1": "Anhela ser un niño de verdad",
+    "curiousFact2": "Acompañado por su conciencia, Pepito Grillo",
+    "genero": "Literatura infantil",
+    "RangoDeEdad": "Todas las edades"
   }
 },
 {
-  "id": "emmy-noether",
-  "name": "Emmy Noether",
-  "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-  "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+  "id": "ElefanteBernardo",
+  "name": "El Elefante Bernardo",
+  "shortDescription": "Gigante y amigable elefante",
+  "description": "El Elefante Bernardo es un gigante elefante que vive en la selva. A pesar de su imponente tamaño, es conocido por su naturaleza amigable y su amor por la naturaleza.",
+  "imageUrl": "https://th.bing.com/th/id/OIG3.o7I461DRPog9_U20saVV?pid=ImgGn",
   "facts": {
-    "yearOfBirth": "1882",
-    "yearOfDeath": "1935",
-    "birthPlace": "Erlangen, Alemania",
-    "mainField": "Matemáticas"
-  },
-  "extraInfo": {
-    "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+    "curiousFact1": "Tiene una memoria excepcional",
+    "curiousFact2": "Siempre lleva consigo una mariposa como amuleto de la suerte",
+    "genero": "Literatura infantil",
+    "RangoDeEdad": "3 a 5 años"
   }
 },
 {
-  "id": "hypatia-de-alejandria",
-  "name": "Hypatia de Alejandría",
-  "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-  "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+  "id": "UgaLaTortuga",
+  "name": "Uga la Tortuga",
+  "shortDescription": "Anciana y sabia tortuga",
+  "description": "Huga la Tortuga es un encantador cuento para niños escrito por Diane Redfield Massie. La historia sigue a Huga, una tortuga que sueña con explorar el mundo más allá de su hogar en el océano. A pesar de las dudas y burlas de sus amigos, Huga persevera y emprende un emocionante viaje. En su aventura, descubre la importancia del valor, la determinación y la autoaceptación. A través de ilustraciones coloridas y una narrativa cautivadora, este cuento inspira a los lectores a seguir sus sueños y creer en sí mismos.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.4cMd5Q7B07Hb3fD7_amy?pid=ImgGn",
   "facts": {
-    "yearOfBirth": "circa 360",
-    "yearOfDeath": "415",
-    "birthPlace": "Alejandría, Egipto",
-    "mainField": "Matemáticas, Filosofía"
-  },
-  "extraInfo": {
-    "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+    "curiousFact1": "Guardiana de cuentos antiguos",
+    "curiousFact2": "Puede predecir cambios en el clima",
+    "genero": "Literatura infantil",
+    "RangoDeEdad": "6 a 10 años"
+  }
+},
+{
+  "id": "LiebreYTortuga",
+  "name": "La Liebre y la Tortuga",
+  "shortDescription": "Personajes de la famosa fábula",
+  "description": "Huga la Tortuga es un encantador cuento para niños escrito por Diane Redfield Massie. La historia sigue a Huga, una tortuga que sueña con explorar el mundo más allá de su hogar en el océano. A pesar de las dudas y burlas de sus amigos, Huga persevera y emprende un emocionante viaje. En su aventura, descubre la importancia del valor, la determinación y la autoaceptación. A través de ilustraciones coloridas y una narrativa cautivadora, este cuento inspira a los lectores a seguir sus sueños y creer en sí mismos.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.22ARtDnxN8DdvuwaTf3B?pid=ImgGn",
+  "facts": {
+    "curiousFact1": "Fábula atribuida a Esopo",
+    "curiousFact2": "Enseñanza popular en la cultura mundial",
+    "genero": "Fábula",
+    "RangoDeEdad": "Todas las edades"
   }
 },];
 

@@ -1,19 +1,20 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
+import { sortData } from '../src/dataFunctions.js';
+import { data as testData } from './data.js';
 
 
-// En este archivo tendrás hacer pruebas unitarias de las funciones implementadas en el archivo dataFunctions.js. (filterBy, sortBy, etc.)
-
-
-describe('example', () => {
-
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+// Se crea primer test para la funcioón de ordenamiento
+describe('sortData function', () => {
+  //Declaramos constante con el ordenamiento que debe existir en un dato falso y que retorne un orden ascendiente
+  const sortAsc = [testData[0], testData[3], testData[1], testData[4], testData[2], testData[5]];
+  it('Se retornan los datos ordenados de forma ascendente', () => {
+    const resultado = sortData(testData, 'name', 'asc');
+    expect(resultado).toEqual(sortAsc);
   });
-});
 
-describe('anotherExample', () => {
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+  //Declaramos constante con el ordenamiento que debe existir en un dato falso y que retorne un orden descendiente
+  const sortDesc = [testData[5], testData[2], testData[4], testData[1], testData[3], testData[0]];
+  it('Se retornan los datos ordenados de forma descendente', () => {
+    const resultado = sortData(testData, 'name', 'desc');
+    expect(resultado).toEqual(sortDesc);
   });
 });
