@@ -1,6 +1,6 @@
 
 export const renderItems = (data) => {
-
+  root.innerHTML = "";
   const ul = document.createElement('ul')
   ul.classList.add('Contenedor')//agregamos una clase a el elemneto ul
   for (let i = 0; i < data.length; i++) {

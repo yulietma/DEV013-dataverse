@@ -1,57 +1,58 @@
-import { filterGender, filterByAge, clearFilters } from './dataFunctions.js';
+import { filterGender, filterByAge, sortData, clearFilters} from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js'; // Importa los datos primero
 
-
 document.getElementById('root').appendChild(renderItems(data));
 
+
+let filteredData= data;
 const selectElement = document.querySelector("#filter");
 const root = document.querySelector("#root");
-const selectAge = document.querySelector("#order")
-
+const selectAge= document.querySelector("#order")
+const orderBook = document.querySelector("#orderad");
+filteredData = [...data];
 
 
 // Evento change para el elemento select, género.
-selectElement.addEventListener("change", () => {
-  const selectGender = selectElement.options[selectElement.selectedIndex].value
+selectElement.addEventListener("change", ()=>{
+  let selectGender = selectElement.options[selectElement.selectedIndex].value
+  console.log(selectGender);
 
-
-  const resultFilter = filterGender(data, selectGender)
-  root.innerHTML = "";
-  root.appendChild(renderItems(resultFilter));
-});
+  let resultFilter = filterGender(data, selectGender)
+  console.log(resultFilter);
+root.appendChild(renderItems(resultFilter));
+}); 
 
 
 // Evento change por Filtro rango de edad 
-selectAge.addEventListener("change", (event) => {
-  const range = selectAge.options[selectAge.selectedIndex].value;
+selectAge.addEventListener("change", () => {
+let range = selectAge.options[selectAge.selectedIndex].value;
+console.log(range);
 
-  const resultAge = filterByAge(data, range)
-  root.innerHTML = "";
-  root.appendChild(renderItems(resultAge));
-});
+let resultAge= filterByAge(data,range)
+console.log(resultAge);
+root.appendChild(renderItems(resultAge));
+ });
 
-/* boton de limpiar filtros */
+
+//CleanButton
 document.querySelector(".clearButton").addEventListener("click", (event) => {
   root.innerHTML = "";//limpia contenedor
   root.appendChild(renderItems(clearFilters(data)));//renderia de nuevo la data original
   selectElement.selectedIndex = 0;// lo establece  ala opcion pre determinada al inicio 
   selectAge.selectedIndex = 0;
+  orderBook.selectedIndex = 0;
 
 });
+ 
+// Evento change para el ordenamiento.
+orderBook.addEventListener("change", (event) => {
+  
+  // Ordenamos los datos filtrados por nombre
+  filteredData = sortData(filteredData, "name", event.target.value);
+  
+  // Limpiamos el contenido anterior y renderizamos los datos ordenados
+  root.innerHTML = '';
+  root.appendChild(renderItems(filteredData));
+});
 
-
-/*
- Funcion ordenamiento.
- orderBook.addEventListener("change", function () {
-  selectElement.value = "Seleccionar";
-  const selectOrder = orderBook.value;
-  let bookAsc;
-
-  if (selectOrder === "asc") {
-    bookAsc = sortBook("name", "asc");
-  } else {
-    bookAsc = sortBook("name", "desc");
-  }
-  root.appendChild(renderItems(bookAsc));
-});*/

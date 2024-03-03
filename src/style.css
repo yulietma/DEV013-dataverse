@@ -3,15 +3,18 @@
 
 
 body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
   background-image: url(assets/img/bienvenida.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
   width: 100%;
-  height: 90%;
+  height: 100vh;
   max-width: 1900px;
   padding-top: 80px;
-  /* Relleno superior igual a la altura de la  de filtrado*/
-
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenido visible */
+  background-position: center; /* Centra la imagen de fondo */
 }
 
 h1 {
@@ -42,6 +45,23 @@ p {
     0 0 0.2em rgb(248, 49, 49);
   padding: 390px;
   white-space: nowrap;
+}
+
+#icon-menu{
+  width: 1%;
+  height: 50px;
+  position: absolute;
+  right: 20px;
+  top: 16px;
+  padding: 10px;
+  font-size: 20px;
+  background: #eeeeeefa;
+  border-radius: 100%;
+  color: #787878;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 footer {
@@ -189,7 +209,7 @@ footer {
   width: 90%;
   margin: 0px auto;
 
-  /*FlexBox*/
+  /*FlexBoox*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -210,10 +230,8 @@ footer {
 
 #main-header {
   background: #00050a;
-  text-align: justify;
   color: white;
-  height: 80px;
-  font-weight: 20;
+  height: auto;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
   width: 100%;
@@ -227,6 +245,8 @@ footer {
   z-index: 9999;
   /* Ajusta el valor según sea necesario para asegurar que esté por encima de todo el contenido */
 }
+
+
 
 label {
   margin: 0;
@@ -287,4 +307,67 @@ label {
   padding: 14px 28px;
   cursor: pointer;
 
+}
+
+/*Seccioón Responsive*/
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 1200px) {
+  /* Aquí van tus estilos actuales */
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 1199px) {
+
+
+  .card {
+    flex-basis: calc(50% - 20px);
+    width: 45%;
+  }
+  .PrimeraCara h2 {
+    font-size: 1.3em;
+    width: 250px;
+  }
+  #Img {
+    width: 280px;
+    height: 270px;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+  body {
+    padding-top: 20px;
+  }
+/* Estilos para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+    margin-top: -150px; /* Ajuste del margen superior para centrar en pantallas pequeñas */
+    text-align: center;
+  }
+
+  p {
+  font-family: 'Poppins', sans-serif; /* Mantén la misma fuente que tenías */
+  font-size: 20px; /* Tamaño de fuente */
+  margin: 0 auto; /* Centra vertical y horizontalmente */
+  max-width: 80%; /* Limita el ancho del texto para que no se extienda demasiado */
+  text-align: center; /* Centra el texto horizontalmente */
+  padding: 20%;
+    }
+  }
+}
+  @media only screen and (max-width: 768px) {
+    .ReadMore {
+      font-size: 8px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+      margin-top: -200px; /* Ajuste del margen superior para centrar en pantallas pequeñas */
+      padding: 150px; /* Ajuste del padding para pantallas pequeñas */
+    }
+  }
+  /* Media query para pantallas pequeñas (por ejemplo, dispositivos móviles) */
+@media only screen and (max-width: 768px) {
+  #main-header {
+    height: auto; /* Altura automática para adaptarse al contenido */
+    font-size: 16px; /* Tamaño de fuente más pequeño */
+    padding: 10px; /* Agrega un poco de espacio entre el contenido y los bordes del encabezado */
+  }
 }
