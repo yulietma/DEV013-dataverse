@@ -28,7 +28,7 @@ Así que adelante, comienza tu viaje de lectura con Cuantos Cuentos y crea recue
 
 ## 2. Prototipo
 
-![Pagina Diseño ](Pagina-Diseño.jpeg)
+![Pagina Diseño ](Pagina.jpeg)
 
 
 ## 3. ¿Como usar Cuantos Cuentos?
@@ -37,11 +37,11 @@ Así que adelante, comienza tu viaje de lectura con Cuantos Cuentos y crea recue
 ![Bienvenida ](Bienvenida.jpeg)
 * Barra de filtros y Ordenamiento  En la parte superior de la página, encontrarás filtros intuitivos que te permiten refinar tu búsqueda según el género del cuento y el rango de edad recomendado para los lectores. Esto te ayuda a encontrar rápidamente los cuentos más adecuados para tus necesidades y preferencias.
 Además de los filtros, tienes la opción de ordenar los cuentos de manera alfabética, ya sea ascendente (A-Z) o descendente (Z-A), lo que facilita aún más la navegación y la búsqueda de cuentos específicos.
-![Barra de filtros ](Barra-de-filtros.jpeg)
+![Barra de filtros ](Filtros.jpeg)
 * Explorar los Cuentos: En el cuerpo de la página, encontrarás una matriz de 24 tarjetas, cada una representando un cuento diferente. Al posicionar el cursor sobre una tarjeta, se mostrará información detallada del cuento, incluyendo el rango de edad recomendado, el género, una curiosidad y otras características destacadas.
 ![Trajetas ](Trajetas.jpeg)
 * Interacción Intuitiva: Con esta presentación visual y la información detallada al posicionar el cursor sobre cada tarjeta, la página brinda una experiencia interactiva y envolvente tanto para las madres como para los pequeños. Pueden explorar los cuentos, descubrir nuevos favoritos y tomar decisiones informadas sobre qué historias leer juntos.
-![Muestra data ](Muestra-data.jpeg)
+![Muestra data ](Data.jpeg)
 *
 * ¡Y eso es todo! Con Cuantos Cuentos, la experiencia de encontrar y disfrutar de cuentos para niños se vuelve fácil, divertida y memorable para todas las familias.
 
@@ -49,12 +49,12 @@ Además de los filtros, tienes la opción de ordenar los cuentos de manera alfab
 ## 4. Ejemplos de filtrado 
 Con estas opciones de filtrado, encontrarás fácilmente los cuentos que se adaptan a tus preferencias y necesidades específicas, ¡permitiéndote disfrutar al máximo de la experiencia de Cuantos Cuentos!
 * ¿Quieres sumergirte en un mundo de fantasía y magia? Selecciona el género "Fantasía" y descubre una selección de cuentos que te transportarán a tierras lejanas, llenas de criaturas mágicas y aventuras emocionantes.
-  ![Filtr Genero](Filtro-Genero.jpeg)
+  ![Filtr Genero](Genero.jpeg)
 * ¿Estás buscando cuentos adecuados para niños de 11 a 13 años? Utiliza el filtro de rango de edad y encuentra historias especialmente recomendadas para esta etapa de desarrollo, que desafiarán la imaginación y cautivarán la mente de tus hijos preadolescentes.
-    ![Filtro Edad](Filtro-Edad.jpeg)
-*Si tienes en mente el nombre de un cuento específico y deseas encontrarlo rápidamente, utiliza la opción de ordenar de manera ascendente. Simplemente introduce el nombre en el campo de búsqueda y selecciona la opción de ordenar de manera ascendente para encontrar el cuento deseado en la lista de resultados.
+    ![Filtro Edad](Edad.jpeg)
+* Si tienes en mente el nombre de un cuento específico y deseas encontrarlo rápidamente, utiliza la opción de ordenar de manera ascendente. Simplemente introduce el nombre en el campo de búsqueda y selecciona la opción de ordenar de manera ascendente para encontrar el cuento deseado en la lista de resultados.
 ![Ordenamiento](Ordenamiento.jpeg)
-*¿Quieres empezar de nuevo y explorar nuevas opciones? Utiliza el botón de limpieza para borrar los filtros aplicados y volver a la lista completa de cuentos. Esto te permite reiniciar tu búsqueda y explorar sin restricciones, para encontrar el cuento perfecto para ti y tus pequeños.
+* ¿Quieres empezar de nuevo y explorar nuevas opciones? Utiliza el botón de limpieza para borrar los filtros aplicados y volver a la lista completa de cuentos. Esto te permite reiniciar tu búsqueda y explorar sin restricciones, para encontrar el cuento perfecto para ti y tus pequeños.
 ###  "¡Explora nuestra colección de cuentos y sumérgete en un mundo de imaginación y aventura! Personaliza tu experiencia de lectura seleccionando tus categorías favoritas y descubre nuevos cuentos para disfrutar juntos".
 
 ## 5. Instalacion
@@ -82,6 +82,7 @@ Queremos expresar nuestro más sincero agradecimiento a equipo de Laboratoria, q
 
 ## 7. Contacto
  Correo:julietamoraangeles1@gmail.com
+ *
  Correo:castroyenny74@gmail.com
 
 ## 8. Estado de Proyecto
@@ -90,21 +91,21 @@ Queremos expresar nuestro más sincero agradecimiento a equipo de Laboratoria, q
 * ### Descripción:
 *  Cuantos Cuentos se encuentra actualmente en su versión 1.0.0, que marca el lanzamiento inicial de la plataforma. En esta versión, ofrecemos una amplia selección de cuentos para niños y madres, con funcionalidades de filtrado intuitivas y una experiencia de usuario atractiva.
 * ### Problemas Conocidos
-*En la versión actual de Cuantos Cuentos, uno de los problemas conocidos es la limitación de aplicar solo un filtro a la vez. Actualmente, los usuarios no pueden aplicar simultáneamente múltiples filtros, como el filtro por género y el filtro por rango de edad, lo que puede dificultar la búsqueda de cuentos específicos que cumplan con múltiples criterios.
+* En la versión actual de Cuantos Cuentos, uno de los problemas conocidos es la limitación de aplicar solo un filtro a la vez. Actualmente, los usuarios no pueden aplicar simultáneamente múltiples filtros, como el filtro por género y el filtro por rango de edad, lo que puede dificultar la búsqueda de cuentos específicos que cumplan con múltiples criterios.
 
-*Estamos conscientes de esta limitación y entendemos que poder aplicar múltiples filtros al mismo tiempo sería una mejora significativa para la experiencia de usuario. Estamos trabajando en una solución para permitir que los usuarios apliquen y combinen varios filtros de manera efectiva, lo que facilitará la búsqueda y la exploración de cuentos según sus preferencias individuales.
+* Estamos conscientes de esta limitación y entendemos que poder aplicar múltiples filtros al mismo tiempo sería una mejora significativa para la experiencia de usuario. Estamos trabajando en una solución para permitir que los usuarios apliquen y combinen varios filtros de manera efectiva, lo que facilitará la búsqueda y la exploración de cuentos según sus preferencias individuales.
 
 Apreciamos su paciencia y comprensión mientras trabajamos en resolver este problema y mejorar la funcionalidad de Cuantos Cuentos para brindar una experiencia aún mejor a nuestros usuarios.
 
 ### Actualizaciones Futuras Planeadas:
 
-*En las próximas actualizaciones de Cuantos Cuentos, estamos comprometidos a abordar y mejorar la funcionalidad del filtro para brindar una experiencia más completa y satisfactoria a nuestros usuarios. Algunas de las actualizaciones planeadas incluyen:
+* En las próximas actualizaciones de Cuantos Cuentos, estamos comprometidos a abordar y mejorar la funcionalidad del filtro para brindar una experiencia más completa y satisfactoria a nuestros usuarios. Algunas de las actualizaciones planeadas incluyen:
 
-*Corrección del Problema de los Filtros: Estamos trabajando activamente en una solución para permitir que los usuarios apliquen múltiples filtros simultáneamente. Esto incluirá la capacidad de combinar filtros, como el filtro por género y el filtro por rango de edad, para una búsqueda más precisa y eficiente de cuentos que cumplan con varios criterios.
+* Corrección del Problema de los Filtros: Estamos trabajando activamente en una solución para permitir que los usuarios apliquen múltiples filtros simultáneamente. Esto incluirá la capacidad de combinar filtros, como el filtro por género y el filtro por rango de edad, para una búsqueda más precisa y eficiente de cuentos que cumplan con varios criterios.
 
-*Optimización de la Interfaz de Usuario: Además de la corrección del problema de los filtros, planeamos realizar mejoras en la interfaz de usuario para hacer que la experiencia de navegación y búsqueda sea aún más intuitiva y atractiva. Esto incluirá mejoras en la presentación de los filtros y una mayor claridad en la aplicación de selecciones.
+* Optimización de la Interfaz de Usuario: Además de la corrección del problema de los filtros, planeamos realizar mejoras en la interfaz de usuario para hacer que la experiencia de navegación y búsqueda sea aún más intuitiva y atractiva. Esto incluirá mejoras en la presentación de los filtros y una mayor claridad en la aplicación de selecciones.
 
-*Ampliación de la Biblioteca de Cuentos: Continuaremos agregando nuevos cuentos emocionantes y populares a nuestra biblioteca, ampliando así las opciones disponibles para nuestros usuarios y brindando una experiencia de lectura más enriquecedora.
+* Ampliación de la Biblioteca de Cuentos: Continuaremos agregando nuevos cuentos emocionantes y populares a nuestra biblioteca, ampliando así las opciones disponibles para nuestros usuarios y brindando una experiencia de lectura más enriquecedora.
 
 ### Estamos comprometidos a seguir escuchando los comentarios de nuestros usuarios y trabajar en mejoras significativas que hagan de Cuantos Cuentos la mejor plataforma posible para explorar y disfrutar de cuentos para niños. Estén atentos para futuras actualizaciones que reflejarán nuestro compromiso continuo con la excelencia y la satisfacción del usuario.
 
