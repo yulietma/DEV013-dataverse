@@ -4,7 +4,7 @@
 
 //Primer filtrado, género.
 export const filterGender = (data, selectGender) => {
-  console.log(selectGender);
+  //console.log(selectGender);
   return data.filter(item => {
     if (selectGender === item.facts.genero) {
 
@@ -45,7 +45,7 @@ export const sortData = (data, sortBy, sortOrder) => {
     const valueA = a[sortBy];
     const valueB = b[sortBy];
     const compare = valueA.localeCompare(valueB);
-    console.log(compare);
+    //console.log(compare);
     return sortOrder === "asc" ? compare : compare * -1;  });
 
   return data;

@@ -15,28 +15,30 @@ filteredData = [...data];
 
 // Evento change para el elemento select, género.
 selectElement.addEventListener("change", ()=>{
-  let selectGender = selectElement.options[selectElement.selectedIndex].value
-  console.log(selectGender);
+  const selectGender = selectElement.options[selectElement.selectedIndex].value
+  /*console.log(selectGender);*/
 
-  let resultFilter = filterGender(data, selectGender)
-  console.log(resultFilter);
-root.appendChild(renderItems(resultFilter));
+  const resultFilter = filterGender(data, selectGender)
+  /*console.log(resultFilter);*/
+  root.innerHTML = "";
+  root.appendChild(renderItems(resultFilter));
 }); 
 
 
 // Evento change por Filtro rango de edad 
 selectAge.addEventListener("change", () => {
-let range = selectAge.options[selectAge.selectedIndex].value;
-console.log(range);
+  const range = selectAge.options[selectAge.selectedIndex].value;
+  //console.log(range);
 
-let resultAge= filterByAge(data,range)
-console.log(resultAge);
-root.appendChild(renderItems(resultAge));
- });
+  const resultAge= filterByAge(data,range)
+  //console.log(resultAge);
+  root.innerHTML = "";
+  root.appendChild(renderItems(resultAge));
+});
 
 
 //CleanButton
-document.querySelector(".clearButton").addEventListener("click", (event) => {
+document.querySelector(".clearButton").addEventListener("click", () => {
   root.innerHTML = "";//limpia contenedor
   root.appendChild(renderItems(clearFilters(data)));//renderia de nuevo la data original
   selectElement.selectedIndex = 0;// lo establece  ala opcion pre determinada al inicio 
