@@ -58,3 +58,8 @@ orderBook.addEventListener("change", (event) => {
   root.appendChild(renderItems(filteredData));
 });
 
+//Funcion para botòn deslizante//
+document.getElementById('scrollButton').addEventListener('click', function () {
+  const root = document.getElementById('root');
+  root.scrollIntoView({ behavior: 'smooth' });
+});
