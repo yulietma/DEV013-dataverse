@@ -27,11 +27,6 @@ export const filterByAge = (data, range) => {
     }
   })
 };
-//Funcion para botòn deslizante//
-document.getElementById('scrollButton').addEventListener('click', function () {
-  const root = document.getElementById('root');
-  root.scrollIntoView({ behavior: 'smooth' });
-});
 
 
 /*Funcion ordenamiento
@@ -41,14 +36,14 @@ document.getElementById('scrollButton').addEventListener('click', function () {
 */
 
 export const sortData = (data, sortBy, sortOrder) => {
-  data.sort((a, b) => {
+  const datatwo = data.sort((a, b) => {
     const valueA = a[sortBy];
     const valueB = b[sortBy];
     const compare = valueA.localeCompare(valueB);
     //console.log(compare);
     return sortOrder === "asc" ? compare : compare * -1;  });
 
-  return data;
+  return datatwo;
 };
 
 /*Funcion de Limpiar filtros */

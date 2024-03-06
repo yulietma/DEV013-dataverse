@@ -48,7 +48,7 @@ p {
 }
 
 #icon-menu{
-  width: 1%;
+  width: 50px;
   height: 50px;
   position: absolute;
   right: 20px;
@@ -359,15 +359,8 @@ label {
   @media only screen and (max-width: 768px) {
     .ReadMore {
       font-size: 8px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
-      margin-top: -200px; /* Ajuste del margen superior para centrar en pantallas pequeñas */
-      padding: 150px; /* Ajuste del padding para pantallas pequeñas */
+      margin-top: -300px; /* Ajuste del margen superior para centrar en pantallas pequeñas */
+      padding: 1px; /* Ajuste del padding para pantallas pequeñas */
     }
   }
-  /* Media query para pantallas pequeñas (por ejemplo, dispositivos móviles) */
-@media only screen and (max-width: 768px) {
-  #main-header {
-    height: auto; /* Altura automática para adaptarse al contenido */
-    font-size: 16px; /* Tamaño de fuente más pequeño */
-    padding: 10px; /* Agrega un poco de espacio entre el contenido y los bordes del encabezado */
-  }
-}
+

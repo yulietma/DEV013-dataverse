@@ -5,16 +5,17 @@ import { data as testData } from './data.js';
 // Se crea primer test para la funcioón de ordenamiento
 describe('sortData function', () => {
   //Declaramos constante con el ordenamiento que debe existir en un dato falso y que retorne un orden ascendiente
-  const sortAsc = [testData[0], testData[3], testData[1], testData[4], testData[2], testData[5]];
+  const sortAsc = [testData[1], testData[0], testData[2]];
   it('Se retornan los datos ordenados de forma ascendente', () => {
-    const resultado = sortData(testData, 'name', 'asc');
-    expect(resultado).toEqual(sortAsc);
+    const resultAsc = sortData(testData, "name", "asc");
+    expect(resultAsc).toEqual(sortAsc);
   });
 
   //Declaramos constante con el ordenamiento que debe existir en un dato falso y que retorne un orden descendiente
-  const sortDesc = [testData[5], testData[2], testData[4], testData[1], testData[3], testData[0]];
+  const sortDesc = [testData[2], testData[0], testData[1]];
   it('Se retornan los datos ordenados de forma descendente', () => {
-    const resultado = sortData(testData, 'name', 'desc');
-    expect(resultado).toEqual(sortDesc);
+    const resultDesc = sortData(testData, "name", "desc");
+    expect(resultDesc).toEqual(sortDesc);
   });
 });
+
