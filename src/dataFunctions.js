@@ -27,7 +27,10 @@ export const filterByAge = (data, range) => {
     }
   })
 };
+<<<<<<< HEAD
 
+=======
+>>>>>>> ea8026f38d386808aa1e6105dcfa36d27b61f9e8
 
 
 /*Funcion ordenamiento
@@ -37,14 +40,14 @@ export const filterByAge = (data, range) => {
 */
 
 export const sortData = (data, sortBy, sortOrder) => {
-  data.sort((a, b) => {
+  const datatwo = data.sort((a, b) => {
     const valueA = a[sortBy];
     const valueB = b[sortBy];
     const compare = valueA.localeCompare(valueB);
     //console.log(compare);
     return sortOrder === "asc" ? compare : compare * -1;  });
 
-  return data;
+  return datatwo;
 };
 
 /*Funcion de Limpiar filtros */
