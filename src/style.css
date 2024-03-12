@@ -13,8 +13,10 @@ body {
   height: 100vh;
   max-width: 1900px;
   padding-top: 80px;
-  background-size: cover; /* Ajusta la imagen para cubrir todo el contenido visible */
-  background-position: center; /* Centra la imagen de fondo */
+  background-size: cover;
+  /* Ajusta la imagen para cubrir todo el contenido visible */
+  background-position: center;
+  /* Centra la imagen de fondo */
 }
 
 h1 {
@@ -47,7 +49,7 @@ p {
   white-space: nowrap;
 }
 
-#icon-menu{
+#icon-menu {
   width: 50px;
   height: 50px;
   position: absolute;
@@ -98,7 +100,6 @@ footer {
 .card {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
-  /*border: 10px solid  rgba(12, 141, 253, 0.685);*/
   position: relative;
   overflow: hidden;
   transition: heigth 0.5s ease;
@@ -169,7 +170,6 @@ footer {
   height: 335px;
   background-color: rgba(252, 252, 252, 0.692);
   padding: 20px;
-  /*box-sizing: border-box ;*/
   transition: top 0.5s ease;
   border-radius: 15px;
   /*tipo de borodo para mi segundacara*/
@@ -180,6 +180,7 @@ footer {
 
 }
 
+/*hover es un pseudo-selector en CSS*/
 .card:hover .SegundaCara {
   top: 0;
 }
@@ -201,7 +202,7 @@ footer {
   /*ajusta los elementos a multipes linea*/
   width: 100%;
   /*amcho de mi contenedor*/
- 
+
 }
 
 .content {
@@ -245,8 +246,6 @@ footer {
   z-index: 9999;
   /* Ajusta el valor según sea necesario para asegurar que esté por encima de todo el contenido */
 }
-
-
 
 label {
   margin: 0;
@@ -297,6 +296,7 @@ label {
   font-size: 39px;
   color: rgb(252, 252, 252);
   text-shadow:
+    /*text-shadow es una propiedad CSS que permite agregar sombras a texto*/
     1px 1px 2px rgb(255, 115, 1),
     0 0 1em rgb(243, 243, 243),
     0 0 0.2em rgb(255, 249, 247);
@@ -310,7 +310,7 @@ label {
 }
 
 /*Seccioón Responsive*/
-/* Estilos para pantallas grandes */
+/* Estilos para pantallas grandes aplicar estilos específicos cuando el ancho de la ventana del navegador es igual o mayor a 1200 píxeles. */
 @media screen and (min-width: 1200px) {
   /* Aquí van tus estilos actuales */
 }
@@ -323,10 +323,12 @@ label {
     flex-basis: calc(50% - 20px);
     width: 45%;
   }
+
   .PrimeraCara h2 {
     font-size: 1.3em;
     width: 250px;
   }
+
   #Img {
     width: 280px;
     height: 270px;
@@ -338,29 +340,40 @@ label {
   body {
     padding-top: 20px;
   }
-/* Estilos para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
-@media only screen and (max-width: 768px) {
-  h1 {
-    font-size: 40px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
-    margin-top: -150px; /* Ajuste del margen superior para centrar en pantallas pequeñas */
-    text-align: center;
-  }
 
-  p {
-  font-family: 'Poppins', sans-serif; /* Mantén la misma fuente que tenías */
-  font-size: 20px; /* Tamaño de fuente */
-  margin: 0 auto; /* Centra vertical y horizontalmente */
-  max-width: 80%; /* Limita el ancho del texto para que no se extienda demasiado */
-  text-align: center; /* Centra el texto horizontalmente */
-  padding: 20%;
+  /* Estilos para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 40px;
+      /* Tamaño de fuente más pequeño para pantallas pequeñas */
+      margin-top: -150px;
+      /* Ajuste del margen superior para centrar en pantallas pequeñas */
+      text-align: center;
+    }
+
+    p {
+      font-family: 'Poppins', sans-serif;
+      /* Mantén la misma fuente que tenías */
+      font-size: 20px;
+      /* Tamaño de fuente */
+      margin: 0 auto;
+      /* Centra vertical y horizontalmente */
+      max-width: 80%;
+      /* Limita el ancho del texto para que no se extienda demasiado */
+      text-align: center;
+      /* Centra el texto horizontalmente */
+      padding: 20%;
     }
   }
 }
-  @media only screen and (max-width: 768px) {
-    .ReadMore {
-      font-size: 8px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
-      margin-top: -300px; /* Ajuste del margen superior para centrar en pantallas pequeñas */
-      padding: 1px; /* Ajuste del padding para pantallas pequeñas */
-    }
-  }
 
+@media only screen and (max-width: 768px) {
+  .ReadMore {
+    font-size: 8px;
+    /* Tamaño de fuente más pequeño para pantallas pequeñas */
+    margin-top: -300px;
+    /* Ajuste del margen superior para centrar en pantallas pequeñas */
+    padding: 1px;
+    /* Ajuste del padding para pantallas pequeñas */
+  }
+}

@@ -23,6 +23,5 @@ describe('filterByAge function', () => {
     expect(filteredData.length).toBe(1); // Verifica que solo hay un elemento en el resultado
     expect(filteredData[0].facts.RangoDeEdad).toBe('3 a 5 años'); // Verifica que el elemento devuelto tenga el rango de edad correcto
   });
-
 });
 
